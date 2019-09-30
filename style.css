@@ -91,8 +91,8 @@ body {
   display: none;
 }
 
-#title h5{
-  font-size:1.5em;
+#title h4{
+  font-size:2em;
 }
 
 .canDo {
@@ -214,8 +214,6 @@ input:focus, textarea:focus {
   position: relative;
   transition: all 5s ease-in-out;
 }
-
-#line {border-bottom:1px solid grey; width:33%; margin: 5% auto 0;}
 
 #title{
   padding:0%;
