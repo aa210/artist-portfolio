@@ -161,7 +161,7 @@ input:focus, textarea:focus {
 .AboutAround {
   width:100%;
   margin:0px; 
-  padding:70px 70px; 
+  padding:8%; 
   box-shadow: 10px 10px 10px grey; 
   background-color:#0d0d0d; 
   color:white;
