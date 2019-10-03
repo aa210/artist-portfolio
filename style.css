@@ -215,6 +215,18 @@ input:focus, textarea:focus {
   transition: all 5s ease-in-out;
 }
 
+#portNav span{
+  text-decoration:underline;
+}
+#portNav span:hover{
+  cursor:pointer;
+  color: pink;
+}
+
+.selected{
+  font-weight:bold;
+}
+
 #title{
   padding:0%;
   background-image: url("https://st.depositphotos.com/1001069/2820/i/950/depositphotos_28202621-stock-photo-notepad-laptop-and-coffee-cup.jpg");
