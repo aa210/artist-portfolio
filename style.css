@@ -478,3 +478,8 @@ color:grey;
 font-family: "Poiret One";
 
 }
+
+#navBar{
+  position:fixed;
+}
+
