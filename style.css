@@ -1,56 +1,65 @@
 @import url(https://fonts.googleapis.com/css?family=Poiret+One);
-
 @import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
 
-
-
 @media screen and (max-width:767px){
-
 #port img{
-
-height:250px;
-
+  height:250px;
 }
-
+    #navigation{
+    display:none;
+  }
+  #navigationMobile{
+    display:none;
+    text-align:center;
+    margin:0px auto;
+  }
+  
+  #mobileMenuButton{
+    display:inline-block;
+    border:1px solid #3a3a3a;
+    border radius: 0px;
+    color:#3a3a3a;
+    margin:0px auto;
+  }
+  
+  #topDivMobile{
+  padding: 2%;
+  background-color: rgba(250,250,250, 1);
+  width: 100%;
+    z-index:5;
+    margin:0px auto;
+    text-align:center;
 }
-
-
+  
+  
+}
 
 @media screen and (min-width:767px){
 
-
-
 #port img{
-
-height:250px;
-
-} 
-
-
-
+  height:250px;
+}  
+  
+   #navigationMobile, #mobileMenuButton, #topDivMobile{
+    display:none;
+  }
+  #navigation{
+    display:inline-block;
+  }
+  
+  
+  
 }
-
-
 
 *, *:before, *:after {
-
-box-sizing: border-box;
-
-letter-spacing:1px;
-
+  box-sizing: border-box;
+  letter-spacing:1px;
 }
-
-body{}
 
 #skillz{
-
-font-size:1.2em; 
-
-display:inline;
-
+  font-size:1.2em; 
+  display:inline;
 }
-
-
 
 html {
   scroll-behavior: smooth;
@@ -58,413 +67,229 @@ html {
 
 
 li{font-size:120%; font-weight:bold; }
-
 .skillzGroup{clear:left;}
-
 h3,h4{font-family: "Nothing You Could Do";}
 
 h1{
-
-margin:5% auto; 
-
-font-size:300%; 
-
-font-weight:bold;
-
-font-family: "Nothing You Could Do";
-
+  margin:5% auto; 
+  font-size:300%; 
+  font-weight:bold;
+  font-family: "Nothing You Could Do";
 }
-
 p{
-
-font-size:130%;
-
+  font-size:130%;
 }
 
-
-
-h1, h2, h3{ text-transform:uppercase; text-align:center;
-
-
-
+h1, h2, h3{  text-transform:uppercase; text-align:center;
+  
 }
-
 .canDo h5{
-
-font-size:1.5em;
-
-color:grey;
-
-font-family: "Poiret One";
-
-
-
+  font-size:1.5em;
+  color:grey;
+  font-family: "Poiret One";
+  
 }
-
-
 
 h4{ 
-
-text-transform: uppercase;
-
-font-size:1.5em;
-
+  text-transform: uppercase;
+  font-size:1.5em;
 }
-
-
 
 #port h4{
-
-text-align:center;
-
+  text-align:center;
 }
-
-
 
 .portText p {
-
-font-family: "Poiret One";
-
-font-size:1.5em;
-
+  font-family: "Poiret One";
+  font-size:1.5em;
 }
-
-
 
 body {
-
-background-color:white; 
-
-font-family: "Poiret One";
-
+  background-color:white; 
+  font-family: "Poiret One";
 }
-
-
 
 .navbar, .panel-footer {
-
-border: none; 
-
-color: #999999;
-
-
-
+  border: none; 
+  color: #999999;
+  
 }
-
-
 
 .girl{
-
-width:150px;
-
-margin: auto;
-
-display:none;
-
+  width:150px;
+  margin: auto;
+  display:none;
 }
-
-
 
 .intro {
-
-padding-bottom:10%; 
-
-}
-
-
+   padding-bottom:10%; 
+ }
 
 #port h5{
-
-font-size:1.2em;
-
-display: none;
-
+  font-size:1.2em;
+  display: none;
 }
-
-
 
 #title h4{
-
-font-size:1.5em;
-
+  font-size:1.5em;
 }
-
-
 
 .canDo {
-
-margin:1% auto; 
-
-padding: 5% 5% 1% ; 
-
+  margin:1% auto; 
+  padding: 5% 5% 1% ;  
 }
 
-
-
-.canDo .glyphicon, .canDo .fa{
-
-font-size:60px;
-
-//margin: 20px auto;
-
-color: #737373;
-
+ .canDo .glyphicon, .canDo .fa{
+   font-size:60px;
+   //margin: 20px auto;
+   color: #737373;
 }
-
-
-
 
 
 .intro .glyphicon:hover , .fa-users:hover{
-
-color:#000002;
-
+  color:#000002;
 }
 
+.links{
+  color:#453a35;
+  border-bottom:none;
+  display: inline-block;
+  font-weight:bold;
+  //font-size: 1.5em;
+}
 
+.linksMobile h4:hover, .links h4:hover{
+  color:#805300;
+}
+.linksMobile h4, .links h4{
+  color:#453a35;
+  margin:0px auto;
+  border-bottom:none;
+  font-size: 2em;
+  font-family:"Poiret One";
+}
 
 .portText { 
-
-color:#ffffff; 
-
-background-color:#404040;
-
-padding:60px; 
-
+  color:#ffffff;  
+  background-color:#404040;
+  padding:60px;  
 }
-
-
-
 
 
 #port img{
-
-margin:5% auto;
-
-width: 100%;
-
-text-align:center;
-
-border-radius:5%;
-
+  margin:5% auto;
+  width: 100%;
+  text-align:center;
+  border-radius:5%;
 }
-
-
 
 .img-rounded, .img-circle{
-
-border: 1px solid #292929; 
-
+  border: 1px solid #292929; 
 }
-
-
 
 img:hover {
-
-box-shadow: 5px 1px 10px #292929;
-
+  box-shadow: 5px 1px 10px #292929;
 }
-
-
 
 h2 {
-
-margin:3%; 
-
-font-size:35px;
-
+  margin:3%; 
+  font-size:35px;
 }
-
-
-
 
 
 h2:hover,h3:hover {
-
-color:#292929; 
-
-text-shadow:2px 2px 5px grey;
-
+  color:#292929; 
+  text-shadow:2px 2px 5px grey;
 }
-
-
 
 input, textarea{
-
-border:none; 
-
-background-color:#26A38C; 
-
-border-bottom: 1px solid #292929;
-
-font-size: 20px; 
-
-width:100%;
-
-color:white;
-
+  border:none; 
+  background-color:#26A38C; 
+  border-bottom: 1px solid #292929;
+  font-size: 20px; 
+  width:100%;
+  color:white;
 }
-
-
 
 input:focus, textarea:focus {
-
-background-color: white;
-
-color:#292929;
-
+  background-color: white;
+  color:#292929;
 }
-
-
 
 .AboutAround {
-
-width:100%;
-
-margin:0px; 
-
-padding:8%; 
-
-box-shadow: 10px 10px 10px grey; 
-
-background-color:#0d0d0d; 
-
-color:white;
-
+  width:100%;
+  margin:0px; 
+  padding:8%; 
+  box-shadow: 10px 10px 10px grey; 
+  background-color:#0d0d0d; 
+  color:white;
 }
-
-
 
 .btn {border: none; background-color:white; color: #292929;}
 
-
-
 .btn:hover {background-color:#292929; color:white;}
-
-
 
 .btn-circle-lg {border-radius: 100%; padding:4%; text-align:center;}
 
-
-
 .btn-circle-lg:hover {background-color:#292929;}
 
-
-
 .overlay {
-
-position: fixed;
-
-z-index:3;
-
-padding:0px;
-
-top: 0;
-
-bottom: 0;
-
-left: 0;
-
-right: 0;
-
-background: rgba(0, 0, 0, 0.7);
-
-transition: opacity 500ms;
-
-visibility: hidden;
-
-opacity: 0;
-
-overflow:auto;
-
+  position: fixed;
+  z-index:3;
+  padding:0px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  overflow:auto;
 }
-
 .overlay:target {
-
-visibility: visible;
-
-opacity: 1;
-
+  visibility: visible;
+  opacity: 1;
 }
-
-
 
 .popup .close {
-
-position: absolute;
-
-top: 20px;
-
-right: 30px;
-
-transition: all 200ms;
-
-font-size: 30px;
-
-font-weight: bold;
-
-text-decoration: none;
-
-color: #333;
-
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
 }
-
-
 
 .popup {
-
-margin: 70px auto;
-
-padding: 20px;
-
-background: #fff;
-
-border-radius: 5px;
-
-width: 50%;
-
-position: relative;
-
-transition: all 5s ease-in-out;
-
+  margin: 70px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
 }
-
-
 
 #portNav span{
-
-text-decoration:underline;
-
+  text-decoration:underline;
 }
-
 #portNav span:hover{
-
-cursor:pointer;
-
-color: pink;
-
+  cursor:pointer;
+  color: pink;
 }
-
-
 
 .selected{
-
-font-weight:bold;
-
+  font-weight:bold;
 }
 
-
-
 #title{
-
-padding:0%;
-
-background-image: url("https://st.depositphotos.com/1001069/2820/i/950/depositphotos_28202621-stock-photo-notepad-laptop-and-coffee-cup.jpg");
-
-background-size: cover;
-
-background-attachment:fixed; 
-
+  padding:0%;
+  background-image: url("https://st.depositphotos.com/1001069/2820/i/950/depositphotos_28202621-stock-photo-notepad-laptop-and-coffee-cup.jpg");
+  background-size: cover;
+  background-attachment:fixed; 
 }
 
 #reference{
@@ -479,9 +304,63 @@ font-family: "Poiret One";
 
 }
 
-#navBar{
-  
-  position:fixed;
+
+/*  */
+#navigation .logo, #topDivMobile .logo{
+  font-size:3.5em;
+}
+
+--
+.navbar-brand{
+  font-size:2em;
+  color:#3a3a3a;  
+}
+.navbar-brand:hover{
+  color:#fefbf9;
+}
+
+#navigation{
+  background-color: rgba(250,250,250, 0.8);
+  border: none;
+  //z-index:4;
+  padding-top: 2%;
+  font-size:.7em;
+  color:#3a3a3a;
+  width:100%;
+  text- align:center;
+  margin:0px auto;
+}
+
+#navigation li, #navigationMobile ul li {
+  list-style-type:none;
+  margin:0% 1%;
+}
+
+#navigation li a, #navigationMobile ul li a{
+  text-decoration: none;
+  color:#3a3a3a; 
   
 }
 
+ #navigation .selected a:hover{
+    border-bottom:none;  
+  }
+
+#navigationMobile button{
+  background-color: #996300;
+}
+#navigationMobile button:hover, .navbutton:hover{
+  background:none;
+  color:#996300;
+}
+
+.hidden{
+  display:none;
+}
+
+.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+}
