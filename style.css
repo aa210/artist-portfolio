@@ -377,5 +377,11 @@ font-family: "Poiret One";
     z-index: 9999;
 }
 
+#portNav h6, #portNav span{
+  font-size:1.5em;
+}
 
+h6{
+  font-size:1em;
+}
 
