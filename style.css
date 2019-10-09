@@ -56,10 +56,14 @@ h1{
   
  h1{
   margin:5% auto; 
-  font-size:5em; 
+  font-size:4.7em; 
   font-weight:bold;
   font-family: "Nothing You Could Do";
 }
+ #title h1 {
+ font-size:5em;   
+}
+  
   
   
 }
