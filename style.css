@@ -30,6 +30,13 @@
     margin:0px auto;
     text-align:center;
 }
+
+h1{
+  margin:5% auto; 
+  font-size:4em; 
+  font-weight:bold;
+  font-family: "Nothing You Could Do";
+}
   
   
 }
@@ -40,13 +47,19 @@
   height:250px;
 }  
   
-   #navigationMobile, #mobileMenuButton, #topDivMobile{
+#navigationMobile, #mobileMenuButton, #topDivMobile{
     display:none;
   }
-  #navigation{
+#navigation{
     display:inline-block;
   }
   
+ h1{
+  margin:5% auto; 
+  font-size:5em; 
+  font-weight:bold;
+  font-family: "Nothing You Could Do";
+}
   
   
 }
@@ -70,12 +83,7 @@ li{font-size:120%; font-weight:bold; }
 .skillzGroup{clear:left;}
 h3,h4{font-family: "Nothing You Could Do";}
 
-h1{
-  margin:5% auto; 
-  font-size:5em; 
-  font-weight:bold;
-  font-family: "Nothing You Could Do";
-}
+
 p{
   font-size:130%;
 }
