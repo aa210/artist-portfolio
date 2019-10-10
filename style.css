@@ -388,3 +388,7 @@ h6{
 .links .fa, .linksMobile .fa{
   font-size:1.5em;
 } 
+
+.linksMobile .fa{
+display:inline;
+}
