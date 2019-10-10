@@ -1,0 +1,662 @@
+@import 'https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans|Montserrat';
+
+
+h1, h2 ,button,.navbar-brand{ text-transform:uppercase;
+  font-family: "Abril Fatface";
+}
+
+@media screen and (max-width:550px){
+  .brandPics{
+  width:96%;
+  display:inline-block;
+  margin:2%;  
+}
+}
+@media screen and (min-width:551px){
+   #brandPics{
+  max-width:48%;
+  display:inline-block;
+  margin:1%;  
+}
+    
+}
+@media screen and (max-width:765px) {
+  
+  #brandGallery{
+    display:none;
+  }
+  #brandGalleryMobile{
+    display:block;
+  }
+  .brandPicsMobile{
+    width:80%;
+    margin: 1% auto;
+    text-align:center;
+    
+  }
+  #aboutPage col-xs-12 .img-responsive{
+      display:hidden;  
+  }
+  
+  #mobileMenuBtn{
+    //display:inline-block;
+    position:fixed;
+    z-index:4;
+  }
+  
+  #title{
+  display:inline-block;
+  width:100%;
+  padding: 180px 0%;  
+  margin:0px auto;
+  text-align:center;
+  color:white;
+  //background: rgba(0,0,0,.3);
+  
+}
+  
+  .pages{
+  padding: 0px 0% 0px;
+}
+  
+  #navigation{display:none;}
+  
+  .videoPics{
+  display:none;
+ }
+  
+  #homePage{
+    background-image: url("http://highlinewest.com/wp/wp-content/uploads/2016/01/model-headshots-side-turn-vancouver-bc-karmiel.jpg");
+    background-size:100% 100%;
+  margin:0px auto;
+  width:100%;
+  height:490px;
+}
+  
+  #videoPage .hvrbox{
+    display:none;
+  }
+  
+  
+  #videoEmbeds{
+    display:inline-block;
+  }
+  
+}
+@media screen and (min-width:765px) {
+  #brandGallery{
+    display:block;
+  }
+  #brandGalleryMobile{
+    display:none;
+  }
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block; 
+}
+  #videoEmbeds{
+    display:none;
+  }
+
+  #brandTopPic{
+    display:inline-block;
+    width: 80%;
+  }
+  
+  #mobileMenuBtn{ 
+    display:none;
+  } 
+  .pages{
+  padding: 65px 0% 1%;
+}
+  #homePage{
+    background-image: url("http://highlinewest.com/wp/wp-content/uploads/2016/01/model-headshots-side-turn-vancouver-bc-karmiel.jpg");
+    background-size:100% 100%;
+  margin:0px auto;
+  width:100%;
+  height:600px;
+}
+.videoPics{
+  display:inline-block;
+ }
+
+  #title{
+  display:none;
+  }
+  
+  #mobileMenuBtn, .panel, #l{
+    display:none;
+  }
+ 
+  #navigation li a:hover{
+  text-decoration:none;  
+  color: #409eef;
+  font-weight:bold;  
+  -moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;  
+}
+  
+  .selected{
+    //border-bottom: 2px solid;
+  }
+  #navigation .selected a:hover{
+    border-bottom:none;
+    
+  }
+}  
+
+/* Everything Else*/
+*{
+  box-sizing:border-box;
+}
+
+#aboutPage{
+  text-align:center;
+  //padding: 0% 4%;
+}
+#aboutPage .row{
+  padding: 3% 10%;
+  margin: 2% auto;
+}
+
+#stats{
+  padding: 0% 10% 5%;
+}
+
+#aboutPage #stats h4{
+  text-align:center;
+}
+
+#aboutPage #stats i{
+  //width:30%;
+  font-size:2em;
+}
+
+#aboutPage h4{
+  font-size:1.1em;
+  text-align:left;
+}
+
+#aboutHeader{
+  background-image: url("https://i.pinimg.com/736x/31/81/88/31818872001179a9b83aba3dbf292996--summer-photography-lifestyle-photography.jpg");  
+  background-size:fixed;
+  //color:#1a1a1a;
+  color:white;
+}
+
+#blogHeader{
+   background-image: url("https://cdn.shopify.com/s/files/1/1004/0238/files/IMG_0719.JPG?8668461497039251068");  
+  background-size:200%;
+ //color:#1a1a1a;
+  color:white; 
+}
+
+#blogPage .col-xs-12 {
+  margin: 1% auto;
+  
+}
+#blogPage h1{
+  text-align:center;
+  font-size: 3em;
+}
+#blogPage h3{
+  font-weight:bold;
+}
+
+#aboutPage .row h2, #campaignPage .main h1{
+  font-size: 1.8em;
+  text-align:left;
+}
+
+.timer{
+  width:200px; margin:20px auto;text-align:center;display:block;font-size:2em}
+
+#help{
+  width:500px; margin:20px auto;text-align:center;display:block;font-size:1.4em}
+
+body{
+  font-family:"Montserrat"; 
+  letter-spacing: 0px;
+  font-size:2em;
+  background-color: #fefbf9;
+}
+
+#brandGallery{
+  margin:2%;
+  overflow:hidden;
+  background-size:cover;
+}
+
+.brandPics{
+  width: 47%;
+  position: relative;
+  float: left;
+  //display:inline;
+  margin:1%;
+}
+
+
+
+#brand1{
+  height: 600px;
+  float: left; 
+  background-color:red;
+}
+#brand2{
+  height: 300px;
+  background-color:yellow;
+}
+#brand3{
+  height: 300px; 
+  background-color:green;
+}
+#brand4{
+  height: 600px;
+  background-color:blue;
+  float:right;
+}
+#brand5{
+  height: 300px;
+  background-color:teal;
+}
+#brand6{
+  height:300px; 
+  background-color:purple;
+}
+
+.bg-dark{
+  background-color:#b09e99;
+  color: #fefbf9;
+}
+.btn-dark{
+  color: #fefbf9;
+  background-color: #465c5c;
+}
+
+#footer .btn-dark{
+  color: #fefbf9;
+  background-color: #465c5c;
+  padding:5px;
+}
+
+
+.btn-dark:hover, #footer .btn-dark:hover {
+  color:#fefbf9;
+  background-color: #0f1c1a;
+  -moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+  
+}
+
+#campaignTestimonials {
+  padding:1%;
+  margin: 0px auto;
+  background-color: #2a2a2a;
+  background-image: url("http://www.loragradyphotography.com/wp-content/uploads/2014/02/LoraGradyPhotography_0370.jpg");
+  background-size:cover;
+  color: white;
+  text-align:center;
+}
+
+#campaignTestimonials blockquote{
+  //text-align:left;
+  font-weight:bold;
+  border-left: 0px;
+  font-size:1.2em;
+}
+
+#campaignTestimonials footer{
+  text-align:center;
+  color: white;
+}
+
+#campaignPage h3{
+  padding: 0% 4%;
+  text-align: left;
+}
+
+#campaignHeader{
+  color:white;
+  background-image: url("https://richard-wakefield.co.uk/wp-content/uploads/2018/02/gods-own-junkyard-model-photo-shoot-galixeon-6.jpg");
+  background-size: 100% 100%; 
+}
+
+#contactHeader{
+  background-image: url("http://www.loragradyphotography.com/wp-content/uploads/2014/02/LoraGradyPhotography_0370.jpg");
+  color: white;  
+  background-size: 100% 100%;
+}
+
+
+#carousel-example{
+  margin: 0px auto;
+}
+
+#campaignPage ul{
+  text-align:center;
+  list-style-type:none;
+}
+
+#campaignPage ul li{
+  
+}
+
+#campaignPage {
+  text-align:center;
+}
+
+#campaignPage button{
+  margin-bottom: 10%;
+}
+
+#contactPage {
+  width:100%;
+}
+
+#aboutPage button, #videoPage button, #blogPage button, #contactPage button{
+  //background-color: #2a2a2a;
+  background: rgba(0,0,0,0);
+  border:2px solid #1a1a1a;
+  color:#1a1a1a; 
+  font-size:0.8em;
+}
+#aboutPage button:hover, #videoPage button:hover, #blogPage button:hover, #contactPage button:hover{
+  background-color:rgba(50,50,50,0.9);
+  color: white;
+  -moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+
+
+#footer{
+  color:#fefbf9;
+  background-color:#1a1a1a;
+  //position: absolute;
+  padding: 1% 0%;
+  bottom: 0px;
+  width:100%;
+  margin: 0px auto;
+  //z-index: 4px;
+  text-align:center;
+  font-size:.8em;
+}
+#footer button{
+}
+#footer li a{
+  display:inline;
+  color:#fefbf9;
+  text-decoration:none;
+}
+
+
+
+.headers{ 
+  text-align:center;
+  font-weight:bold;
+  background-attachment:fixed; background-repeat: no-repeat; background-size: 100% 100%; 
+  padding:0% 0%;
+  margin: 0px auto;
+  height: auto;
+}
+
+.headers h1{
+  font-size: 3em;
+}
+
+.hidden{
+  display:none;
+  opacity:0;
+}
+
+#homePage img:hover{
+  opacity:1;
+  cursor:default;
+}
+
+.hvrbox {
+	position: relative;
+  display:inline;
+  margin:0px auto;
+}
+.hvrbox .hvrbox-layer_top {
+	opacity: 0;
+	position: absolute;
+	//top: 0;
+	//left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(150, 150, 150, 0.6);
+	color: #fff;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+}
+.hvrbox:hover .hvrbox-layer_top{
+	opacity: 1;
+}
+
+.hvrbox-text {
+	text-align: center;
+	font-size: 1em;
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-moz-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+
+
+
+.navbar-brand{
+  font-size:2em;
+  color:#3a3a3a;  
+  margin-top:-4px;
+}
+
+
+h1,h2{
+  margin-bottom:3%;
+}
+
+input[placeholder]{
+  color:#453a35;
+}
+
+img{
+  width:100% ;
+  height:100%;
+  margin: 0px auto;
+}
+
+#mobileMenu a, #mobileMenu h1{
+  color:white;
+}
+
+
+#mobileMenu a:hover, #mobileMenu h1:hover{
+  color: #409eef;
+  text-decoration:none;
+  -moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;  
+}
+
+#mobileMenu h2{
+  font-size: 1.5em;
+}
+#mobileMenuBtn {
+  position:fixed;
+  left: 10px;
+  top:3px;
+  border-radius: 4px;
+  text-align: center;
+  font-size:0.8em;
+  background: rgba(55,55,55,.8);
+  padding: 3% 1%;
+  border:1px solid white;
+  color:white;
+  -webkit-backface-visibility: hidden;
+}
+
+#navigation{
+  background-color: rgba(250,250,250, 0.9);
+  border: none;
+  z-index:4;
+  padding: 5px;
+  font-size:.6em;
+  color:#3a3a3a;
+  position:fixed;
+  //top:0;
+  width:100%;
+}
+
+#navigation li{
+  list-style-type:none;
+}
+
+#navigation li a{
+  text-decoration: none;
+  color:#3a3a3a; 
+}
+
+.links{
+  color:#453a35;
+  border-bottom:none;
+  display: inline-block;
+  padding-top:1%;
+  padding-left: 1%;
+  padding-right: 1%; 
+  font-size: 1.5em;
+}
+
+
+.selected {
+  font-weight:bold;
+  color:#7585ef;
+}
+
+.main{
+  padding:10% 8%;
+}
+
+.socialBtns{
+  list-style-type:none;
+  display:inline;
+  font-size: 1.3em;
+  padding-left: 4px;
+  padding-right: 4px;
+} 
+
+
+#footer .socialBtns a:hover{
+  border-bottom:none; color:#409eef;
+  -moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s;
+	-ms-transition: all 0.4s ease-in-out 0s;
+	transition: all 0.4s ease-in-out 0s;
+  
+  
+} 
+
+#subscriberBox{
+  background-color:#1a1a1a;
+  color:#fefbf9;
+  margin:0px auto;
+  text-align:center;
+  padding: 2px;
+}
+
+#videoPage{
+  text-align: center;
+  margin:0px auto;
+}
+
+#videoPage iframe{
+  margin: 1% auto 5%;
+}
+
+.videoPics{
+  margin:3% auto;
+}
+.videoPics:hover{
+  cursor:pointer;
+}
+#videosHeader{
+  background-image: url("https://s3.amazonaws.com/pbblogassets/uploads/2017/08/27130641/Photography-Cover.jpg");
+  background-size:100% 100%;
+  color:white;
+}
+
+#subscribe{
+  display:inline;
+}
+
+#footerMain{
+  display:inline;
+}
+
+#social{
+  display:inline;
+  text-align:center;
+}
+
+#socialBtns {color:white; display:inline; text-decoration:none;} 
+
+#socialBtns a{ 
+  text-decoration: none;
+  //background-color:#1a1a1a; 
+  //border-radius:5%; 
+  padding:0px 5px;
+  margin: auto;
+} 
+.overlay { 
+  position: fixed;
+  z-index:3;
+  padding:0px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  overflow:auto;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 2em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup {
+  text-align:center;
+  background-color:#1a1a1a;
+  margin: 70px auto;
+  padding:3%;
+  border-radius: 5px;
+  width: 90%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
