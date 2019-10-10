@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+
+<html lang="en" >
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+
+<title>WikiPedia Viewer</title>
+
+
+<link href="<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet" />" />
+
+
+<link rel="stylesheet" href="style.sass">
+
+</head>
+  
+
+<body>
+<div class="view">
+<i class="fa fa-soundcloud" aria-hidden="true"></i> 
+<h1> SoundCloud <br>Discovery</h1>
+  <br>
+ 
+  <h4> Select a genre. Discover an awesome track you can download.</h4>
+<br><br>
+
+<button class="btn" value="classical">Classical</button> 
+<button class="btn" value="dance">Dance</button>
+<button class="btn" value="electronic">Electronic</button>
+<button class="btn" value="hip hop">Hip Hop</button>
+<button class="btn" value="house" >House</button>
+    <br>
+<button class="btn" value="indie">Indie</button>
+<button class="btn" value="pop">Pop</button>  
+<button class="btn" value="pop">R&B</button>   
+<button class="btn" value="remix">Remixes</button>
+<button class="btn" value="study relax">Study Music</button>
+  <br><br>
+  <div id="results">
+    <h4 id="loading"></h4>
+    <div id="player"></div>
+    
+  
+  </div>
+  
+</div>
+<script src="https://connect.soundcloud.com/sdk/sdk-3.1.2"></script>
+    <script src="script.js"></script>  
+
+</body>
