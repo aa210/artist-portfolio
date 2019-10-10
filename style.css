@@ -385,7 +385,7 @@ h6{
   font-size:1em;
 }
 
-.links .fa, .linksMobile .fa{
+.links .fa, .linksMobile .fa, .links span, .linksMobile span{
   font-size:1.8em;
 } 
 
