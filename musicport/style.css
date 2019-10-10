@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Quicksand|Saira+Stencil+One|Rubik+Mono+One&display=swap');
+
+#subscribeDiv h3{
+  font-family:'Saira Stencil One';
+}
+/* Media Queries*/
+@media screen and (max-width:575px){
+  form{ width:100%;}
+  //#music button{
+  margin: 0% 1%;
+  width: 40%;
+  font-size: 80%;
+}
+   .popUpImages{
+    display:none;
+  }  
+  .photos{cursor:default;}
+  
+
+  #shows table{
+  margin:0px auto;
+  width: 95%;
+  font-size: .8em;
+  font-weight:bold;
+}
+
+#shows button{
+  font-size: .8em;
+  margin: 1%;
+  
+}
+
+}
+@media screen and (min-width:575px){
+      form{ width:80%;}
+
+  
+  
+  #shows table{
+  margin:0px auto;
+  width: 90%;
+  font-size: 1em;
+  font-weight:bold;
+}
+
+#shows button{
+  font-size: .8em;
+  margin: 1%;
+}
+
+  
+  }
+@media screen and (max-width:766px) {
+  .sections{
+  text-align:center;
+  padding: 7% 5% 15%;
+  margin: 0px auto;
+}
+  .menu2{display:none;}
+   #subscribe{
+  display:none;
+  }
+  
+    h1{
+  font-weight:bold;
+  font-family: 'Saira Stencil One';
+  font-size: 3em;
+  margin: 10% 0%;  
+}
+ 
+  
+  #home{
+      z-index:3;
+  }
+  #mobileMenuBtn{
+    //display:inline-block;
+    position:fixed;
+    z-index:4;
+  }
+  #home .text-block{
+    visibility:visible;
+  }
+ #topMenuA{
+   //visibility:hidden;  
+   display:none; 
+ }
+  #topMenuB{
+   display:none;   
+ }
+  
+  .merch{
+    width: 38%;
+    display: inline-block;
+    margin-bottom: 3%;
+    
+  }
+  
+  .photos{
+    width:100%;
+    height: 275px;
+  }
+  
+  #imageSection{
+    display:none;
+  }
+  #imageSection2{
+    display:block;
+  }
+  
+  #imageSection2 .col-sm-6{
+    width:100%;
+  }
+ 
+  
+}
+@media screen and (min-width:766px) {
+  .menu2{
+  list-style-type: none; 
+  text-align: center;
+  z-index: 4;
+  position: fixed;
+  top:0;
+  left: 0;
+  color:#39004f;
+  background: rgba(255, 242, 247, 0.8);
+  padding: 1%;
+  width: 100%;
+}
+  #home{
+      z-index:5;
+  }
+  
+    h1{
+  font-weight:bold;
+  font-family: 'Saira Stencil One', sans-serif;
+  font-size: 4em;
+  margin: 0%;
+    
+}
+  
+  #imageSection2{
+    display:none;
+  }
+  #imageSection{
+    display:block;
+  }
+  
+  .sections{
+  text-align:center;
+  padding: 7% 5% 10%;
+  margin: 0px auto;
+  }
+  
+ #subscribe{
+  display:inline;
+  margin: 0px 10%; 
+}
+  
+  #mobileMenuBtn{ 
+    display:none;
+  } 
+  #home .text-block{
+    visibility:hidden;
+  }
+  .merch{
+    width: 22%;
+    display: inline-block;
+    margin-bottom: 3%;
+  }
+  
+  .divLeft{width:40%; display:inline-block; position:static; top:0px;}
+  .divRight{width:40%; display:inline-block;}
+  
+.
+}
+
+/* Everything Else*/
+*{
+  box-sizing:border-box;
+}
+
+#audio{
+  position:fixed;
+  bottom:0;
+  left:0;
+  width:100%;
+  margin: 0px auto;
+}
+audio{
+  background-color:none;
+  width:80%;
+}
+
+#song{
+  width:20%;
+  background-color:pink;
+  bottom:0;
+  left:0;
+  display:inline;
+}
+
+#about{
+  color:#fff2f7;
+  background-color:rgba(25,0,20,.8);
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#about button, #contact button{
+  margin: 15px;
+  font-size:1.4em;
+  //padding:3%;
+  //font-weight: bold;
+ background: rgba(83,5,33,0);
+  color:#fff2f7;
+ border:2px solid #fff2f7;
+}
+
+#about button:hover, #contact button:hover{
+  color:#2b2024;
+  background-color: #fff2f7;
+}
+
+#news button{
+  font-size:1em;
+  font-weight: bold;
+  padding:2%;
+  background:none;
+  color:#4d0026;
+  border:2px solid #4d0026;
+}
+
+#music button:hover{
+  background: none;
+  color:#862d59;
+} 
+
+#news button:hover { 
+  color: #fff2f7;
+  background: #4d0026;
+}
+
+
+#about h5{
+  text-align:left;
+}
+
+
+.backgrounds{
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: #fff2f7;
+  padding: 200px 0%; 
+}
+
+
+#backIMG2 {
+  background-image: url("https://cdn.fstoppers.com/styles/full/s3/media/2015/10/2_train_sean_molin_concert_music_photography_fstoppers.jpg");
+   position: relative;
+   left: 0px;
+}
+
+
+#backIMG3 {
+   background-image:url("http://thatverynextthing.com/wp-content/gallery/nashville/img_8466.jpg");
+  background-attachment:fixed; background-repeat: no-repeat; background-size: 100% 100%;
+}
+
+button{
+  font-family:"Saira Stencil One";
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+  color: #2b2024;
+}
+
+#contact{
+  background-color:rgba(25,0,20,.8);
+  color:#fff2f7;
+  padding-bottom:10%;
+}
+
+.fa{
+  font-size:20px;
+}
+#footer{
+  background-color:#1a1a1a;
+  color:#fff2f7;
+  //position: fixed;
+  margin: 0px auto;
+  bottom:0px;
+  width:100%;
+  padding: 1%;
+  text-align:center;
+  font-size:1.2em;
+}
+
+#footer li a{
+  display:inline;
+  color: #fff2f7;
+  text-decoration:none;
+}
+
+form{
+  margin: 0px auto;
+  text-align: center;  
+}
+
+.form-group, .form-row .col{
+  margin:0px auto;
+}
+
+#gallery{
+  background-color: rgba(43,32,36,0.8);
+  color: #fff2f7;
+}
+
+#home h1{
+  color:#fff2f7;
+  display:inline;
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+}
+.text-block{
+  padding-top:10%;
+}
+.text-block .logo{
+  size:200%;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+#home{
+  position:relative;
+  margin:0px auto;
+  width:100%;
+  background-image: url('http://thatverynextthing.com/wp-content/gallery/nashville/sleater-kinney.jpg'); background-attachment:fixed; background-repeat:no-repeat; background-size:100% 100%; width:100%;padding: 150px 0% 275px;
+  }
+
+#home .text-block{
+  text-align: center;
+  color: #eee8e6;
+  text-shadow: 2px 2px 4px #2b2024;
+}
+
+img{
+  //border-radius: 5px; 
+}
+
+
+.wtf{
+  padding:20px auto;
+}
+
+.merch a{
+  color: #2b2024; 
+ }
+
+.merch a:hover{
+ color: rgba(83,5,33,1);
+  text-decoration: none;
+  transition: opacity 500ms;
+    -webkit-transition: color 500ms;
+   -moz-transition: color 500ms;
+    -ms-transition: color 500ms;
+     -o-transition: color 500ms;
+        transition: color 500ms; 
+}
+
+
+#musicButtons button{
+  background: rgba(77,0,38,1);
+  color:#fff2f7;
+}
+
+#musicButtons button:hover{
+  color: #4d0028;
+  background:none;
+  border:2px solid #4d0028;
+}
+
+#mobileMenu a, #mobileMenu h1{
+  color:#fff2f7;
+}
+
+#mobileMenu a:hover{
+  text-decoration:none;
+  color: rgba(83,5,33,1);
+}
+
+#mobileMenu h2{
+  font-size: 120%;
+}
+
+#mobileMenuBtn {
+  position:fixed;
+  left: 10px;
+  top:3px;
+  border-radius: 4px;
+  text-align: center;
+  font-size:30px;
+  background:rgba(255,255,255,0.9);
+  padding: 5px;
+  color:#4d0026;
+  border:2px solid #4d0026;
+  -webkit-backface-visibility: hidden;
+}
+
+#music{
+  background-color:rgba(255,242,247,.8);
+  color:#2b2024;
+}
+.newRelease img{
+  width:70%;
+}
+
+
+#news{
+  background-color: rgba(255, 242, 247, 0.8);
+  text-align:left;
+}
+#news h6{
+  color: grey;
+  font-weight: bold;
+}
+
+#subscribeDiv{
+  background:rgba(51, 0, 26,0.9);
+  color:#fff2f7;
+  font-weight: bold;
+  text-align: center;
+  color: #fff2f7;
+  padding: 8% 5%;
+  font-size:1.5em;
+} 
+
+#imageSection{
+  margin:0px auto;
+  width:100%;
+  text-align:center;
+}
+
+#imageSection img{
+  opacity:.8;
+  
+}
+
+#imageSection img:hover{
+  opacity:.5;
+}
+
+.photos2{
+  width:25%;
+  margin:0px -2px;
+  height:275px;
+}
+.photos3{
+  width:49%;
+  margin:0px -2px;
+  height:275px;
+}
+
+
+#news img{
+  width: 90%;
+  //height: auto;
+}
+
+#socialBtns {color:#fff2f7; display:inline; text-decoration:none;} 
+
+#socialBtns a{ 
+  text-decoration: none;
+  //background-color:#2b2024; 
+  //border-radius:5%; 
+  padding:0px 5px;
+  margin: auto;
+}
+
+#socialBtns .fa:hover {
+  color: #800040;
+  -webkit-transition: color 500ms;
+   -moz-transition: color 500ms;
+    -ms-transition: color 500ms;
+     -o-transition: color 500ms;
+        transition: color 500ms;
+}
+
+#social{
+  display:inline;
+}
+
+
+#subscribe li{
+  font-size:70%;
+}
+
+#topMenuA{
+  width: 100%;
+  text-align:right;
+  position:absolute;
+  top:10px;
+  right: 20px;
+  color:#fff2f7;
+  list-style-type: none;
+  margin:0px auto;
+}
+
+
+
+#topMenuA a li, #topMenuA li {
+  //position:relative;
+  color:#fff2f7; 
+  font-weight: bold; 
+  display: inline;
+  font-size:1.2em;
+  padding: 0px 2px; 
+  text-decoration:none;
+}
+#topMenuA li a:after{
+  display: inline; 
+  position: absolute; 
+  height: 10%; 
+  background-color: #70bf2f; 
+  content: ""; 
+  transition: width 0.2s;
+}
+  
+#topMenuA a li:hover{
+  //color:#70bf2f;
+  color: rgba(83,5,33,1);
+  -webkit-transition: color 500ms;
+   -moz-transition: color 500ms;
+    -ms-transition: color 500ms;
+     -o-transition: color 500ms;
+        transition: color 500ms;
+}
+
+#topMenuA a:hover{
+  text-decoration:none;
+}
+
+#topMenuA a li:hover:after {width: 100%;}
+
+
+
+.overlay {
+  position: fixed;
+  z-index:3;
+  padding:0px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(43, 32, 36, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  overflow:auto;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+.popup {
+  text-align:center;
+  background-color:#2b2024;
+  margin: 70px auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+#popUpImages img{
+  width:100%;
+}
+#popUpImages h6{
+  color:#fff2f7;
+}
+
+
+#shows{
+  color: #2b2024;
+  background-color:rgba(250,242,247,.8);
+}
+
+
+#shows thead{
+  border-bottom:3px solid;
+  border-top:3px solid;
+  padding:1% 0%;
+}
+#shows td{
+  border-bottom:1px solid;
+  border-top:1px solid;
+  padding:1% 0%;
+}
+
+#shows .btn{
+  background-color:rgba(35,0,20,.8);
+  color:#fff2f7;
+}
+
+#shows .btn:hover{
+  color: #4d0026;
+  background:none;
+  border:2px solid #4d0026;
+}
+
+#first{
+  z-index:5;
+}
+
+
+.menu2-items:hover{
+  text-decoration: none;
+}
+ .menu2-items li{ 
+  color: rgba(77,0,38,1); 
+  padding:1%;
+  display:inline;
+  margin: 0px px;
+  font-size:1em;
+  font-weight: bold;
+}
+
+.menu2-items li:hover{
+  text-decoration:underline;
+   -webkit-transition: color 500ms;
+   -moz-transition: color 500ms;
+    -ms-transition: color 500ms;
+     -o-transition: color 500ms;
+        transition: color 500ms;
+}
+
+.fadeInBlock{
+    opacity:0;
+}
+
+.slideInBlock{
+    width:0%;
+    //margin:0px auto;
+}
+
+.downloads{
+  width:200px;
+  color: #fff2f7;
+  background-color:#862d59;
+  margin: 1%; 
+  border:2px solid #862d59;
+}
+
+.downloads:hover{
+  
+}
+
+.hidden{
+  display:none;
+}
+
+.newRelease{
+  //padding:5% 10%;
+  margin:0px auto;
+  //background-color:#ffffff;
+  text-align:center;
+}
+
+#subscribeDiv button{
+  background:none;
+  border: 2px solid #fff2f7;
+  color:#fff2f7;
+}
+#subscribeDiv button:hover{
+  background-color:#fff2f7;
+  color:#2b2024;
+}
