@@ -393,6 +393,9 @@ h6{
 display:inline;
 }
 
+.icon{
+display:inline-block;
+}
 #info{
   /*background-image: url("https://st.depositphotos.com/1001069/2820/i/950/depositphotos_28202621-stock-photo-notepad-laptop-and-coffee-cup.jpg");
   background-size: cover;
