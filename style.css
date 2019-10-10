@@ -395,6 +395,8 @@ display:inline;
 
 .icon{
 display:inline-block;
+  margin:0px auto;
+  text-align:center;
 }
 #info{
   /*background-image: url("https://st.depositphotos.com/1001069/2820/i/950/depositphotos_28202621-stock-photo-notepad-laptop-and-coffee-cup.jpg");
