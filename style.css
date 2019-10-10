@@ -97,7 +97,7 @@ h1, h2, h3{  text-transform:uppercase; text-align:center;
 }
 .canDo h5{
   font-size:1.5em;
-  color:grey;
+  color:#3a3a3a;
   font-family: "Poiret One";
   
 }
@@ -402,8 +402,12 @@ display:inline-block;
 }
 
 .skillzGroup{
-  padding: 5% 0%;
+  padding: 5% 2%;
 }
 .canDoGroup{
-  padding:5% 0%;
+  padding:5% 2%;
+}
+
+#AboutAround p, #title h5{
+  font-size:1.7em;
 }
