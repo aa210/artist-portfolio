@@ -92,7 +92,7 @@ p{
   font-size:130%;
 }
 
-h1, h2, .canDo h3, .skillzGroup h3{  text-transform:uppercase; text-align:center;
+h1, h2, .canDo h3, .skillzGroup h3{  text-transform:uppercase; text-align:center; font-weight:bold;
   
 }
 .canDo h5{
@@ -419,6 +419,7 @@ display:inline-block;
 
 blockquote footer{
   color:#F08080;
+  font-size:1em;
 }
 
 .highlight{
