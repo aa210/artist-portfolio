@@ -61,7 +61,7 @@ h1{
   font-family: "Nothing You Could Do";
 }
  #title h1 {
- font-size:5em;   
+ font-size:5.2em;   
 }
   
   
@@ -92,7 +92,7 @@ p{
   font-size:130%;
 }
 
-h1, h2, h3{  text-transform:uppercase; text-align:center;
+h1, h2, .canDo h3, .skillzGroup h3{  text-transform:uppercase; text-align:center;
   
 }
 .canDo h5{
@@ -154,9 +154,7 @@ body {
 }
 
 
-.intro .glyphicon:hover , .fa-users:hover{
-  color:#000002;
-}
+
 
 .links{
   color:#453a35;
@@ -167,7 +165,7 @@ body {
 }
 
 .linksMobile h4:hover, .links h4:hover{
-  color:#805300;
+  color:#F08080;
 }
 .linksMobile h4, .links h4{
   color:#453a35;
@@ -205,10 +203,6 @@ h2 {
 }
 
 
-h2:hover,h3:hover {
-  color:#292929; 
-  text-shadow:2px 2px 5px grey;
-}
 
 input, textarea{
   border:none; 
@@ -235,11 +229,11 @@ input:focus, textarea:focus {
 
 .btn {border: none; background-color:white; color: #292929;}
 
-.btn:hover {background-color:#292929; color:white;}
+.btn:hover {background-color:#F08080; color:white;}
 
 .btn-circle-lg {border-radius: 100%; padding:4%; text-align:center;}
 
-.btn-circle-lg:hover {background-color:#292929;}
+.btn-circle-lg:hover {background-color:#F08080;}
 
 .overlay {
   position: fixed;
@@ -286,7 +280,7 @@ input:focus, textarea:focus {
 }
 #portNav span:hover{
   cursor:pointer;
-  color: pink;
+  color: #F08080;
 }
 
 .selected{
@@ -408,6 +402,26 @@ display:inline-block;
   padding:5% 2%;
 }
 
-#AboutAround p, #title h5{
+#AboutAround p, #title h3{
   font-size:1.7em;
+  font-family: "Poiret One";
+}
+
+#title h3{
+   color: #F08080
+}
+
+#info h3{
+  font-size:1.9em;
+  font-family: "Poiret One";
+  padding:5% 5% 1%;
+}
+
+blockquote footer{
+  color:#F08080;
+}
+
+.highlight{
+  color: #F08080;
+  font-weight:bold;
 }
