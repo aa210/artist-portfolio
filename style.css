@@ -173,7 +173,7 @@ body {
   color:#453a35;
   margin:0px auto;
   border-bottom:none;
-  font-size: 2em;
+  font-size: 1.5em;
   font-family:"Poiret One";
 }
 
@@ -382,7 +382,7 @@ h6{
 }
 
 .links .fa, .linksMobile .fa, .links strong, .linksMobile strong{
-  font-size:1.8em;
+  font-size:1.3em;
 } 
 
 .linksMobile .fa{
