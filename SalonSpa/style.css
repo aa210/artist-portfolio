@@ -41,8 +41,12 @@
 @media screen and  (max-width: 768px) {
   
   h1{
-  font-size:3em;
+  font-size:3.7em;
 }
+  #slideShow h1{
+  font-size:3.3em;
+}
+  
   
   .item .sliderText{
   //font-size:4em;
@@ -53,10 +57,14 @@
 color:white;
 margin-left: auto;
 margin-right: auto;
-  top: 25%;
+  top: 22%;
 left: 75px;
 right: 75px;
   text-align:center;
+}
+  
+  h2{
+  font-size:2.3em;
 }
   
   #navigation{
@@ -89,6 +97,7 @@ right: 75px;
     margin:0px auto;
     text-align:center;
 }
+  
 }
 @media screen and (min-width: 768px){
   .item .sliderText{
@@ -117,7 +126,15 @@ right: 200px;
     display:inline-block;
   }
   
-
+  h1{
+  font-size:4.3em;
+  font-weight:bold;
+}
+  
+  h2{
+  font-size:2.5em;
+}
+  
   #socialFeed img{
   display:inline;
   margin:-4px;
@@ -134,9 +151,9 @@ right: 200px;
   }
 }
 
+/*everything else*/
 
 *{
-	maargin: 0;
   box-sizing:border-box;
  
 }
@@ -189,18 +206,11 @@ body, .sliderText h3{
   text-decoration:underline;
 } 
 
-h1{
-  font-size:4.3em;
-  font-weight:bold;
-}
 
 h1, h2, #introDiv strong{
   font-family:"Bad Script";
 }
 
-h2{
-  font-size:2.5em;
-}
 
 h4{
   font-size:1.8em;
@@ -260,7 +270,7 @@ input{
 #services{
   text-align: center;
   width:90%;
-  padding: 10% 2%;
+  padding: 10% 5%;
   //background-color:pink;
 }
 
