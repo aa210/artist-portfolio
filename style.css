@@ -2,10 +2,15 @@
 @import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
 
 @media screen and (max-width:767px){
+  
+  #dark{
+    height:100vh;
+    padding:20% 10% 0%;
+  }
 #port img{
   height:250px;
 }
-    #navigation{
+ #navigation{
     display:none;
   }
   #navigationMobile{
@@ -13,6 +18,10 @@
     text-align:center;
     margin:0px auto;
   }
+ #skillz{
+  font-size:1em; 
+  display:inline;
+}
   
   #mobileMenuButton{
     display:inline-block;
@@ -33,16 +42,33 @@
 
 h1{
   margin:5% auto; 
-  font-size:4em; 
+  font-size:3em; 
   font-weight:bold;
   font-family: "Nothing You Could Do";
 }
   
+  #info h3{
+  font-size:1.5em;
+  font-family: "Poiret One";
+  padding:5% 6% 1%;
+}
+  
+  #reference h5{
+font-size:1.1em;
+
+color:grey;
+
+font-family: "Poiret One";
+
+}
   
 }
 
 @media screen and (min-width:767px){
-
+#dark{
+    height:100vh;
+    padding:15% 10% 25%;
+  }
 #port img{
   height:250px;
 }  
@@ -56,7 +82,7 @@ h1{
   
  h1{
   margin:5% auto; 
-  font-size:4.7em; 
+  font-size:4.5em; 
   font-weight:bold;
   font-family: "Nothing You Could Do";
 }
@@ -64,19 +90,31 @@ h1{
  font-size:5.2em;   
 }
   
+  #info h3{
+  font-size:1.9em;
+  font-family: "Poiret One";
+  padding:5% 6% 1%;
+}
   
+#reference h5{
+font-size:1.5em;
+color:grey;
+font-family: "Poiret One";
+}
+  #skillz{
+  font-size:1.2em; 
+  display:inline;
+}
   
 }
 
+/*everything else*/
 *, *:before, *:after {
   box-sizing: border-box;
   letter-spacing:1px;
 }
 
-#skillz{
-  font-size:1.2em; 
-  display:inline;
-}
+
 
 html {
   scroll-behavior: smooth;
@@ -165,7 +203,7 @@ body {
 }
 
 .linksMobile h4:hover, .links h4:hover{
-  color:#F08080;
+  color:#eda1a1;
 }
 .linksMobile h4, .links h4{
   color:#453a35;
@@ -186,7 +224,7 @@ body {
   margin:5% auto;
   width: 100%;
   text-align:center;
-  border-radius:5%;
+  border-radius:0%;
 }
 
 .img-rounded, .img-circle{
@@ -229,11 +267,11 @@ input:focus, textarea:focus {
 
 .btn {border: none; background-color:white; color: #292929;}
 
-.btn:hover {background-color:#F08080; color:white;}
+.btn:hover {background-color:#eda1a1; color:white;}
 
 .btn-circle-lg {border-radius: 100%; padding:4%; text-align:center;}
 
-.btn-circle-lg:hover {background-color:#F08080;}
+.btn-circle-lg:hover {background-color:#eda1a1;}
 
 .overlay {
   position: fixed;
@@ -280,11 +318,12 @@ input:focus, textarea:focus {
 }
 #portNav span:hover{
   cursor:pointer;
-  color: #F08080;
+  color: #eda1a1;
 }
 
 .selected{
   font-weight:bold;
+  color: #eda1a1;
 }
 
 #title{
@@ -297,14 +336,7 @@ input:focus, textarea:focus {
 #reference{
   padding:8%;
 }
-#reference h5{
-font-size:1.5em;
 
-color:grey;
-
-font-family: "Poiret One";
-
-}
 
 
 /*  */
@@ -368,7 +400,7 @@ font-family: "Poiret One";
 }
 
 #portNav h6, #portNav span{
-  font-size:1.5em;
+  font-size:1.2em;
 }
 
 h6{
@@ -396,7 +428,7 @@ display:inline-block;
 }
 
 .skillzGroup{
-  padding: 2% 2%;
+  padding: 3% 6%;
 }
 .canDoGroup{
   padding:5% 6% 2%;
@@ -408,25 +440,20 @@ display:inline-block;
 }
 
 #title h3{
-   color: #F08080
+   color: #eda1a1;
 }
 
-#info h3{
-  font-size:1.9em;
-  font-family: "Poiret One";
-  padding:5% 6% 1%;
-}
 
 blockquote footer{
-  color:#F08080;
+  color:#eda1a1;
   font-size:1em;
 }
 
 .highlight{
-  color: #F08080;
+  color: #eda1a1;
   font-weight:bold;
 }
 
 #port{
-  padding:4% 6%;
+  padding:4% 6% 15%;
 }
