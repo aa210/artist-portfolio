@@ -46,6 +46,9 @@ h1, h2 ,button,.navbar-brand{ text-transform:uppercase;
   .headers h1{
   font-size: 3em;
 }
+.headers {
+  height: 70vh;
+}
   
   #brandGallery{
     display:none;
