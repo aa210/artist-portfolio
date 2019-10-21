@@ -53,7 +53,7 @@
 @media screen and (max-width:766px) {
   .sections{
   text-align:center;
-  padding: 7% 5% 15%;
+  padding: 7% 8% 15%;
   margin: 0px auto;
 }
   .menu2{display:none;}
@@ -61,12 +61,18 @@
   display:none;
   }
   
+  #shows td{
+   font-size:.9em;
+   border-bottom:1px solid;
+   border-top:1px solid;
+ }
     h1{
   font-weight:bold;
   font-family: 'Saira Stencil One';
-  font-size: 3em;
+  font-size: 2.8em;
   margin: 10% 0%;  
 }
+ 
  
   
   #home{
@@ -136,6 +142,12 @@
   font-size: 4em;
   margin: 0%;
     
+}
+  
+  #shows td{
+  border-bottom:1px solid;
+  border-top:1px solid;
+  padding:1% 0%;
 }
   
   #imageSection2{
@@ -243,6 +255,7 @@ audio{
 
 #about h5{
   text-align:left;
+  font-size:1.2em;
 }
 
 
@@ -278,7 +291,7 @@ body{
 #contact{
   background-color:rgba(25,0,20,.8);
   color:#fff2f7;
-  padding-bottom:10%;
+  padding-bottom:5% 5% 10%;
 }
 
 .fa{
@@ -291,7 +304,7 @@ body{
   margin: 0px auto;
   bottom:0px;
   width:100%;
-  padding: 1%;
+  padding: 3%;
   text-align:center;
   font-size:1.2em;
 }
@@ -405,9 +418,9 @@ img{
   border-radius: 4px;
   text-align: center;
   font-size:30px;
-  background:rgba(255,255,255,0.9);
+  color:rgba(255,255,255,0.9);
   padding: 5px;
-  color:#4d0026;
+  background:#4d0026;
   border:2px solid #4d0026;
   -webkit-backface-visibility: hidden;
 }
@@ -424,6 +437,7 @@ img{
 #news{
   background-color: rgba(255, 242, 247, 0.8);
   text-align:left;
+  padding: 10%;
 }
 #news h6{
   color: grey;
@@ -436,7 +450,7 @@ img{
   font-weight: bold;
   text-align: center;
   color: #fff2f7;
-  padding: 8% 5%;
+  padding: 8%;
   font-size:1.5em;
 } 
 
@@ -599,6 +613,7 @@ img{
 #shows{
   color: #2b2024;
   background-color:rgba(250,242,247,.8);
+  padding: 7% 3%;
 }
 
 
@@ -607,11 +622,7 @@ img{
   border-top:3px solid;
   padding:1% 0%;
 }
-#shows td{
-  border-bottom:1px solid;
-  border-top:1px solid;
-  padding:1% 0%;
-}
+
 
 #shows .btn{
   background-color:rgba(35,0,20,.8);
@@ -627,7 +638,6 @@ img{
 #first{
   z-index:5;
 }
-
 
 .menu2-items:hover{
   text-decoration: none;
@@ -662,9 +672,9 @@ img{
 .downloads{
   width:200px;
   color: #fff2f7;
-  background-color:#862d59;
+  background:rgba(51, 0, 26,1);
   margin: 1%; 
-  border:2px solid #862d59;
+  border:2px solid #33001a;
 }
 
 .downloads:hover{
