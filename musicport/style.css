@@ -26,13 +26,29 @@
 
 #shows button{
   font-size: .8em;
-  margin: 1%;
+  margin: 1%;  
+}
   
+  #home{
+  position:relative;
+  margin:0px auto;
+  width:100%;
+  background-image: url('http://thatverynextthing.com/wp-content/gallery/nashville/sleater-kinney.jpg'); background-attachment:fixed; background-repeat:no-repeat; background-size:100% 100%; width:100%;padding: 150px 0% 275px;
+  height:550px;
 }
 
 }
 @media screen and (min-width:575px){
-      form{ width:80%;}
+
+  #home{
+  position:relative;
+  margin:0px auto;
+  width:100%;
+  background-image: url('http://thatverynextthing.com/wp-content/gallery/nashville/sleater-kinney.jpg'); background-attachment:fixed; background-repeat:no-repeat; background-size:100% 100%; width:100%;padding: 150px 0% 275px;
+  height:100vh;
+}
+  
+  form{ width:80%;}
 
   
   
@@ -348,13 +364,6 @@ html{
   scroll-behavior: smooth;
 }
 
-#home{
-  position:relative;
-  margin:0px auto;
-  width:100%;
-  background-image: url('http://thatverynextthing.com/wp-content/gallery/nashville/sleater-kinney.jpg'); background-attachment:fixed; background-repeat:no-repeat; background-size:100% 100%; width:100%;padding: 150px 0% 275px;
-  height:100vh;
-}
 
 #home .text-block{
   text-align: center;
