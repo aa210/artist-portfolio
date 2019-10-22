@@ -1,6 +1,6 @@
 $(document).ready(function() { 
   //fadeIns (must include css properies!!)
-$(function() { 
+/*$(function() { 
     $(window).scroll( function(){
            
         $('.fadeInBlock').each( function(i){
@@ -15,7 +15,7 @@ $(function() {
                 
                 $(this).animate({'opacity':'1'},800);  }
         });      
-    });
+    });*/
   
   
   
