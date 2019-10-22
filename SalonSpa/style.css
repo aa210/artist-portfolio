@@ -97,7 +97,9 @@ right: 75px;
     margin:0px auto;
     text-align:center;
 }
-  
+  #footer form{
+    display:none;
+  } 
 }
 @media screen and (min-width: 768px){
   .item .sliderText{
@@ -188,7 +190,7 @@ body, .sliderText h3{
 
 #gallery{
   text-align:center;
-  padding: 6%;
+  padding: 8%;
 }
 #gallery img{
   width:100%;
@@ -270,7 +272,7 @@ input{
 #services{
   text-align: center;
   width:90%;
-  padding: 10% 5%;
+  padding: 10% 8%;
   //background-color:pink;
 }
 
@@ -561,6 +563,10 @@ color: #1a1100;
 }
 #popUpImages h6{
   color:#fff2f7;
+}
+
+#introDiv h2{
+  font-size:2.8em;
 }
 
 
