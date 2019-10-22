@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Quicksand|Saira+Stencil+One|Rubik+Mono+One&display=swap');
 
-#subscribeDiv h3{
+#subscribeDiv h4{
   font-family:'Saira Stencil One';
 }
 /* Media Queries*/
@@ -34,7 +34,7 @@
   margin:0px auto;
   width:100%;
   background-image: url('http://thatverynextthing.com/wp-content/gallery/nashville/sleater-kinney.jpg'); background-attachment:fixed; background-repeat:no-repeat; background-size:100% 100%; width:100%;padding: 150px 0% 275px;
-  height:550px;
+  height:480px;
 }
 
 }
@@ -54,7 +54,7 @@
   
   #shows table{
   margin:0px auto;
-  width: 90%;
+  width: 80%;
   font-size: 1em;
   font-weight:bold;
 }
@@ -67,6 +67,11 @@
   
   }
 @media screen and (max-width:766px) {
+#subscribeDiv h4{
+    font-size:1em;
+}
+
+  
   .sections{
   text-align:center;
   padding: 7% 8% 15%;
@@ -80,13 +85,16 @@
   #shows td{
    font-size:.9em;
    border-bottom:1px solid;
-   border-top:1px solid;
+   border-top:1px solid; 
  }
+  #shows tr{
+    padding: 2% 0%;
+  }
     h1{
   font-weight:bold;
   font-family: 'Saira Stencil One';
   font-size: 2.5em;
-  margin:5% 0%;  
+  margin:5% 0% 0%;  
 }
  
  
@@ -136,6 +144,11 @@
   
 }
 @media screen and (min-width:766px) {
+  
+#subscribeDiv h4{
+    font-size:1.4em;
+}
+  
   .menu2{
   list-style-type: none; 
   text-align: center;
@@ -203,6 +216,16 @@
 }
 
 /* Everything Else*/
+
+ #subscribeDiv {
+ background: rgba(20, 20, 57,0.9);
+  color:#fff2f7;
+  font-weight: bold;
+  text-align: center;
+  color: #fff2f7;
+  padding: 8%;
+} 
+
 *{
   box-sizing:border-box;
 }
@@ -229,48 +252,53 @@ audio{
 
 #about{
   color:#fff2f7;
-  background-color:rgba(25,0,20,.8);
+   background: rgba(20, 20, 57,0.9);
   padding-left: 15%;
   padding-right: 15%;
 }
 
 #about button, #contact button{
   margin: 15px;
-  font-size:1.4em;
-  //padding:3%;
+  font-size:1.1em;
+  text-align:center;
+  //padding:0% 2%;
   //font-weight: bold;
- background: rgba(83,5,33,0);
-  color:#fff2f7;
+ background-color: #fff2f7;
+  color:#141439;
  border:2px solid #fff2f7;
 }
 
 #about button:hover, #contact button:hover{
-  color:#2b2024;
-  background-color: #fff2f7;
+  color:white;
+  background: #141439;
+  
 }
 
 #news button{
   font-size:1em;
   font-weight: bold;
   padding:2%;
-  background:none;
-  color:#4d0026;
-  border:2px solid #4d0026;
+ background: #141439;
+  color: #fff2f7;
+  
+}
+
+#news button:hover { 
+  color:#141439;
+  background:none; 
+  border:2px solid #141439;
 }
 
 #music button:hover{
   background: none;
-  color:#862d59;
+  color:#141439;
 } 
 
-#news button:hover { 
-  color: #fff2f7;
-  background: #4d0026;
-}
+
 
 
 #about h5{
-  text-align:left;
+  //text-align:left;
   font-size:1em;
 }
 
@@ -305,7 +333,7 @@ body{
 }
 
 #contact{
-  background-color:rgba(25,0,20,.8);
+  background-color:rgba(0,0,0,.8);
   color:#fff2f7;
   padding:10%;
 }
@@ -357,7 +385,7 @@ form{
   padding-top:10%;
 }
 .text-block .logo{
-  size:200%;
+  font-size:3em;
 }
 
 html{
@@ -402,9 +430,9 @@ img{
 }
 
 #musicButtons button:hover{
-  color: #4d0028;
+  color:#141439;
   background:none;
-  border:2px solid #4d0028;
+  border:2px solid #262626;
 }
 
 #mobileMenu a, #mobileMenu h1{
@@ -423,20 +451,20 @@ img{
 #mobileMenuBtn {
   position:fixed;
   left: 10px;
-  top:3px;
+  top:8px;
   border-radius: 4px;
   text-align: center;
   font-size:30px;
   color:rgba(255,255,255,0.9);
   padding: 5px;
-  background:#4d0026;
-  border:2px solid #4d0026;
+  background: #141439;
+  border:1px solid white;
   -webkit-backface-visibility: hidden;
 }
 
 #music{
   background-color:rgba(255,242,247,.8);
-  color:#2b2024;
+color: #262626;
 }
 .newRelease img{
   width:70%;
@@ -447,21 +475,15 @@ img{
   background-color: rgba(255, 242, 247, 0.8);
   text-align:left;
   padding: 10%;
+   color: #262626;
 }
+
 #news h6{
   color: grey;
   font-weight: bold;
 }
 
-#subscribeDiv{
-  background:rgba(51, 0, 26,0.9);
-  color:#fff2f7;
-  font-weight: bold;
-  text-align: center;
-  color: #fff2f7;
-  padding: 8%;
-  font-size:1em;
-} 
+
 
 #imageSection{
   margin:0px auto;
@@ -555,7 +577,6 @@ img{
 }
   
 #topMenuA a li:hover{
-  //color:#70bf2f;
   color: rgba(83,5,33,1);
   -webkit-transition: color 500ms;
    -moz-transition: color 500ms;
@@ -602,7 +623,7 @@ img{
 }
 .popup {
   text-align:center;
-  background-color:#2b2024;
+  background-color:#141439;
   margin: 70px auto;
   padding: 20px;
   border-radius: 5px;
@@ -620,9 +641,9 @@ img{
 
 
 #shows{
-  color: #2b2024;
+  color:#262626;
   background-color:rgba(250,242,247,.8);
-  padding: 7% 3%;
+  padding: 7% 5%;
 }
 
 
@@ -634,14 +655,14 @@ img{
 
 
 #shows .btn{
-  background-color:rgba(35,0,20,.8);
+  background-color: #262626;
   color:#fff2f7;
 }
 
 #shows .btn:hover{
-  color: #4d0026;
+  color: #262626;
   background:none;
-  border:2px solid #4d0026;
+  border:2px solid #262626;
 }
 
 #first{
@@ -679,16 +700,14 @@ img{
 }
 
 .downloads{
-  width:200px;
+  //width:50px;
+  //display:inline;
   color: #fff2f7;
-  background:rgba(51, 0, 26,1);
-  margin: 1%; 
-  border:2px solid #33001a;
+  background: #141439;
+  //margin: 1%; 
+  border:2px solid #141439;
 }
 
-.downloads:hover{
-  
-}
 
 .hidden{
   display:none;
@@ -708,5 +727,9 @@ img{
 }
 #subscribeDiv button:hover{
   background-color:#fff2f7;
-  color:#2b2024;
+  color: #141439;
+}
+
+#news h4{
+  font-weight:bold;
 }
