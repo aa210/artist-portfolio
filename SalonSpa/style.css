@@ -97,9 +97,6 @@ right: 75px;
     margin:0px auto;
     text-align:center;
 }
-  #footer form{
-    display:none;
-  } 
 }
 @media screen and (min-width: 768px){
   .item .sliderText{
