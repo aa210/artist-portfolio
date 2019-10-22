@@ -585,3 +585,7 @@ q:before, q:after {
 
 https://app.moqups.com/em7aZn52lH/view/page/aa9df7b72
 */
+#bottom{
+  position: static;
+  bottom:0;
+}
