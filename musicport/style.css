@@ -700,10 +700,8 @@ color: #262626;
 }
 
 .downloads{
-  //width:50px;
-  //display:inline;
-  color: #fff2f7;
-  background: #141439;
+  color:#141439;
+  background: white;
   //margin: 1%; 
   border:2px solid #141439;
 }
