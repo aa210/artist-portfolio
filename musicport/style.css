@@ -20,7 +20,7 @@
   #shows table{
   margin:0px auto;
   width: 95%;
-  font-size: .8em;
+  font-size: 1em;
   font-weight:bold;
 }
 
@@ -290,8 +290,8 @@ audio{
 }
 
 #music button:hover{
-  background: none;
-  color:#141439;
+  background-color: #141439;
+  color:white;
 } 
 
 
@@ -299,7 +299,7 @@ audio{
 
 #about h5{
   //text-align:left;
-  font-size:1em;
+  font-size:1.2em;
 }
 
 
@@ -644,6 +644,7 @@ color: #262626;
   color:#262626;
   background-color:rgba(250,242,247,.8);
   padding: 7% 5%;
+  font-size:1em;
 }
 
 
