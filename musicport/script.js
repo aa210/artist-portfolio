@@ -28,7 +28,7 @@ $(function() {
   
   
   
-  /*$(window).scroll(
+  $(window).scroll(
   function(){
     
      $('.slideInBlock').each( function(i){
@@ -48,7 +48,7 @@ $(function() {
             }
         }); 
     
-  }); */
+  }); /
 });
 
 
