@@ -344,7 +344,7 @@ body{
 #footer{
   background-color:#1a1a1a;
   color:#fff2f7;
-  //position: fixed;
+  position:relative;
   margin: 0px auto;
   bottom:0px;
   width:100%;
