@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-  <title>Visual Artist Portfolio - About</title>
+  <title>Visual Artist Portfolio - Contact</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css"/>
- <link rel="stylesheet" type="text/css" href="stylesheets/about.css"> 	
+ <link rel="stylesheet" type="text/css" href="stylesheets/contact.css"> 	
  
 </head>
 
 
-<body class="contaner">
+<body>
  <!--Desktop Menu-->
 <div id="sideMenu" class="pull-left col-xs-12 col-sm-12 col-md-3">
    
-  <img class="img-responsive" id="logo" src="http://bepuredesign.com/wp-content/uploads/2016/04/PUREdesign-02.png" style="width:100%;">
+  <img class="img-responsive" id="logo" src="http://bepuredesign.com/wp-content/uploads/2016/04/PUREdesign-02.png" style="width:100%;height:200%;">
   <ul class="pull-left nav-top" style="list-style-type:none;">
-    <li class="linkA"><a href="#"> HOME</a></li>
-    <li class="linkA"><div id="artWork">ART WORK</div></li>
+    <li class="linkA"><a href="index.html"> HOME</a></li> 
+    <li class="linkA"><div id="artWork" style="">ART WORK</div></li>
     <ul class="subLinks" id="artWork">
     <li class="linkB"><a href="gallery1.html">Paintings
 </a></li>
@@ -27,10 +27,10 @@
     </ul>
     
     
-    <li class="linkA"><a target="_blank" href="http://www.etsy.com">ART SHOP</a></li>
+    <li class="linkA"><a href="http://www.etsy.com">ART SHOP</a></li>
   <br>
-    <li class="linkB"><a href="about.html" class="selected">About</a></li>
-    <li class="linkB"><a href="contact.html"> Contact</a></li>
+    <li class="linkB"><a href="https://codepen.io/aadesida/full/pmqEYJ">About</a></li>
+    <li class="linkB"><a href="#" class="selected"> Contact</a></li>
    <br>
     <div id="socialMenu">
     <li id="socialBtns"><a href=""> <i class="fa fa-envelope"></i></a></li>
@@ -42,50 +42,93 @@
   <li id="socialBtns"><a href=""> <i class="fa fa-twitter"></i></a></li>
     </div>  
     <br><strong>&copy; 2019 Built by <a href=#>Adeshi</a></strong>
-    
+   
   </ul>
   
 </div>
 
-    
-  <a href="#theMenu"> 
+      <div id="topMenu"> <img src="http://bepuredesign.com/wp-content/uploads/2016/04/PUREdesign-02.png" width="150px"></div>
+  
+  <div id="main" class="hidden col-xs-12 col-sm-12 col-md-9">
+<a href="#theMenu"> 
     <i class="mobileMenuBtn" aria-hidden="true">MENU</i>
  </a>
-  
+    
+
  <!-- HomePage -->
-  <div class="container" id="aboutPage">
+    <div class="container" id="contactPage">
     <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6">
       <br>
-  <img  class="img-responsive" src="https://i.pinimg.com/564x/17/56/f2/1756f27fa6cca578e883a7be85857f9f.jpg" >
+  <img  class="img-responsive" id="contactPic" src="https://i.pinimg.com/564x/61/e0/f9/61e0f9b6dfd09f2c76529f413f6abdb8.jpg" alt="https://www.pinterest.com/pin/24066179236695236/" >
       
       
       </div>
     <div class="col-xs-12 col-sm-12 col-md-6"><br>
-      <h2> ABOUT ME</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a dui massa. Sed ligula urna, cursus feugiat sollicitudin id, molestie sit amet enim. Duis lectus arcu, fringilla non arcu sit amet, finibus luctus nisl. Sed finibus sapien turpis, sit amet porttitor tellus lobortis id. 
-<p>Etiam non sapien vel justo porttitor aliquam. Proin gravida quis neque blandit pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque aliquam tempor sem non pharetra.
-<p>In vehicula, sapien eget luctus faucibus, magna ante feugiat elit, vel iaculis enim sapien vitae mi. Sed luctus quis lectus et iaculis. Aenean laoreet suscipit massa eu hendrerit. Curabitur commodo rutrum augue ac efficitur.
+      <h2>LET'S CHAT</h2>    
+<p>I would love to hear from you! Send me a letter thank you very much and have a nice day! :)
+  
+  <div>
+      <p><strong> Contact:</strong>
+        <br>Phone: 1-(888)-888-8888
+         <br> Email: hello@myport.com (or fill out the form below) <br><br>
+      </div>
+
+  <form>
+    <label for="Name">Name:</label>
+  <div class="form-row">
+    <div class="col">    
+    <input type="text" class="form-control" placeholder="First name">
+    </div> 
+  <div class="col">  
+    <input type="text" class="form-control"  placeholder="Last name">
+    </div>
+    </div>
+    
+     
+    <!--<div class="form-group">-->
+    <div class="form-group"><br>
+      <label for="Email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+    </div>
+  
+    <!--<div class="form-group">-->
+    <div class="form-group">
+     <label for="Name">Subject:</label>   
+    <input type="text" class="form-control">
+    </div>
+    
+   <div class="form-group">
+    <label for="comment">Message:</label>
+  <textarea class="form-control" style="width:100%; height:200px;"></textarea>
+  </div>
+  <button type="submit" class="btn btn-dark">Submit</button>
+</form>
+      
+    
+  
     </div>
     </div>
     </div> 
     
+  </div>
 
 <!--MobileMenu-->
 <div class="overlay" id="theMenu" > 
       <div class="popup">
-        <h1><a href="index.html">&times</a></h1>
+        <h1><a href="#">&times</a></h1>
         <h1>PURE DESIGN</h1>
         <br>
-        <h2><a href="#"><div>  HOME</div></a></h2>
+        <h2><a href="#">HOME</a></h2>
         <h2>ART WORK</h2>
     <h2 class="linkB"><a href="gallery1.html">Paintings
 </a></h2>
     <h2 class="linkB"><a href="gallery2.html"> Murals
 </a></h2>
-        <h2><a target="_blank" href="http://www.etsy.com"> ART SHOP </a> </h2>
-        <h2><a href="about.html" class="selected">ABOUT</a> </h2>
-        <h2><a href="contact.html">CONTACT</a> </h2>
+    </ul>
+        <h2><a target="blank" href="http://www.etsy.com"> ART SHOP </a> </h2>
+        <h2><a href="about.html">ABOUT</a> </h2>
+        <h2><a href="#"><div class="selected">CONTACT</div></a> </h2>
         <br>
        <li id="socialBtns"><a href=""> <i class="fa fa-envelope"></i></a></li>
     
@@ -94,17 +137,10 @@
     <li id="socialBtns"><a href=""><i class="fa fa-pinterest"></i></a></li>
     
   <li id="socialBtns"><a href=""> <i class="fa fa-twitter"></i></a></li>
-  
-        <br><strong>&copy; 2019 Built by <a href=# id="byMe">Adeshi</a></strong>
-        
+ 
+  <br><strong>&copy; 2019 Built by <a href=# id="byMe">Adeshi</a></strong>
       </div>
     </div> 
-
-   <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="index.js"></script>
-  
-</body>
 
 
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
