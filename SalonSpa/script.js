@@ -19,7 +19,7 @@ $(function() {
   
   
   
-$(window).scroll(
+/*$(window).scroll(
   function(){
     
      $('.slideInBlock').each( function(i){
@@ -39,6 +39,7 @@ $(window).scroll(
     
   });
 });  
+*/
   
 //Mobile Menu
  $("#mobileMenuButton").click(function(){
