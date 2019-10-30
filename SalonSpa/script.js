@@ -19,7 +19,7 @@ $(function() {
   
   
   
-  $(window).scroll(
+  /* $(window).scroll(
   function(){
     
      $('.slideInBlock').each( function(i){
@@ -33,14 +33,12 @@ $(function() {
             if( bottom_of_window > bottom_of_object ){
                 
                 $(this).animate({'width':'100%'},900);
-
               
-                    
             }
         }); 
     
   });
-});  
+});  */
   
 //Mobile Menu
  $("#mobileMenuButton").click(function(){
