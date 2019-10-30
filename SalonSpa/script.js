@@ -19,10 +19,10 @@ $(function() {
   
   
   
-/*$(window).scroll(
+$(window).scroll(
   function(){
     
-     $('.slideInBlock').each( function(i){
+   /*  $('.slideInBlock').each( function(i){
             
             var bottom_of_object = $(this).position().top + $(this).outerHeight();
             var bottom_of_window = $(window).scrollTop() + $(window).height();
@@ -35,11 +35,11 @@ $(function() {
                 $(this).animate({'width':'100%'},900);
               
             }
-        }); 
+        }); */
     
   });
 });  
-*/
+
   
 //Mobile Menu
  $("#mobileMenuButton").click(function(){
