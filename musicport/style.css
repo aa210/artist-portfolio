@@ -263,14 +263,14 @@ audio{
   text-align:center;
   //padding:0% 2%;
   //font-weight: bold;
- background-color: #fff2f7;
-  color:#141439;
+ background: none;
+  color:#fff2f7;
  border:2px solid #fff2f7;
 }
 
 #about button:hover, #contact button:hover{
-  color:white;
-  background: #141439;
+  color:#141439;
+  background: #fff2f7;
   
 }
 
@@ -290,7 +290,6 @@ audio{
 }
 
 #music button:hover{
-  background-color: #141439;
   color:white;
 } 
 
@@ -702,9 +701,8 @@ color: #262626;
 
 .downloads{
   color:#141439;
-  background: white;
-  //margin: 1%; 
-  border:2px solid #141439;
+  background:none;
+  margin: 1px; 
 }
 
 
