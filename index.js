@@ -1,4 +1,5 @@
 $(document).ready(function() { 
+ 
    //Scroll Up Menu
 var didScroll;
         var lastScrollTop = 0;
@@ -43,7 +44,10 @@ var didScroll;
 //Mobile Menu
  $("#mobileMenuButton").click(function(){
     $("#navigationMobile").slideToggle();
+   $(".fa-bars").toggleClass("hidden");
+    $(".fa-close").toggleClass("hidden");
   }); 
+    
   
  $("#viewMenu").click(function(){
     $("#menuPrint").slideToggle();
