@@ -1,3 +1,5 @@
+
+
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Arima+Madurai:100|Bad+Script|Fascinate|NTR');
 
 /*Sarina&display=swap,Megrim, Diplomata/Biryani:200 */
@@ -43,7 +45,7 @@
   font-size:3em;
 }
   #slideShow h1{
-  font-size:3.3em;
+  font-size:3em;
   margin-bottom:0%;  
 }
  .item img{
@@ -68,7 +70,7 @@ right: 75px;
   h2{
   font-size:2.1em;
 }
-  
+
   #navigation{
     display:none;
   }
@@ -98,6 +100,7 @@ right: 75px;
     z-index:5;
     margin:0px auto;
     text-align:center;
+    border-bottom: 2px solid #996300;
 }
 }
 @media screen and (min-width: 768px){
@@ -162,6 +165,7 @@ right: 200px;
 
 *{
   box-sizing:border-box;
+  line-height:0.7;
 }
 
 #about{
@@ -402,7 +406,8 @@ input[type=text], input[type=email]{
 
 .sliderText button{
   //display:none;
-  background-color: #996300;
+  background-color: #b87700;
+  border: 1px solid tan;
 }
 .sliderText button:hover{
   //display:none;
