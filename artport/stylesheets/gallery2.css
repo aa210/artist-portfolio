@@ -3,7 +3,7 @@
 @media screen and (max-width:767px) {
   
 .mobileMenuBtn{
-position: fixed;
+position: absolute;
 z-index: 3;
 top: 5px;
 padding: 2%;
@@ -21,7 +21,7 @@ display:none;
 display:block;
 background-color:white;
 position: fixed;
-z-index:2;
+z-index:3;
 width: 100%;
 margin:0px auto;
 height: 50px;
