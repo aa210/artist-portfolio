@@ -1,29 +1,31 @@
 @import 'https://fonts.googleapis.com/css?family=Permanent+Marker|Open+Sans|Pacifico|Indie+Flower';
 /* Media Queries*/
 @media screen and (max-width:767px) {
+	
+.mobileMenuBtn{
+position: fixed;
+z-index: 3;
+top: 5px;
+padding: 2%;
+border-radius: 4px;
+color: #1a1a1a;
+font-size:1.2em;
+}
 
- .mobileMenuBtn{
-    position: fixed;
-    z-index: 5;
-    top: 5px;
-    padding: 2%;
-    border-radius: 4px;
-    color: #1a1a1a;
-    font-size:1.2em;
-  }
- 
- #sideMenu{
-   display:none;   
- }
-  #topMenu{
-    display:block;
-    background-color:white;
-    position: fixed;
-    z-index:5;
-    width: 100%;
-    margin:0px auto;
-    height: 50px;
-  }
+#sideMenu{
+display:none; 
+
+}
+
+#topMenu{
+display:block;
+background-color:white;
+position: fixed;
+z-index:2;
+width: 100%;
+margin:0px auto;
+height: 50px;
+}
   
   .frontGallery{
    max-width:100%;   
