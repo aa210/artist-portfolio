@@ -2,16 +2,17 @@
 /* Media Queries*/
 @media screen and (max-width:767px) {
 
- .mobileMenuBtn{
+  .mobileMenuBtn{
     position: fixed;
-    z-index: 5;
+    z-index: 3;
+    left: 5px;
     top: 5px;
     padding: 2%;
+    background-color: #1a1a1a;
     border-radius: 4px;
-    color: #1a1a1a;
-    font-size:1.2em;
+    color: white;
+    font-size:1em;
   }
- 
  #sideMenu{
    display:none;   
  }
@@ -19,10 +20,9 @@
     display:block;
     background-color:white;
     position: fixed;
-    z-index:5;
+    z-index:2;
     width: 100%;
     margin:0px auto;
-    height: 50px;
   }
   
   .frontGallery{
@@ -263,5 +263,3 @@ li>a:hover {
 #theMenu h2{font-size:140%;}
 
 #theMenu .linkB{font-size:100%;}
-
-
