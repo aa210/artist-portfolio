@@ -6,11 +6,7 @@
 /* Media Queries*/
 @media screen and (max-width:575px){
   form{ width:100%;}
-  //#music button{
-  margin: 0% 1%;
-  width: 40%;
-  font-size: 80%;
-}
+ 
    .popUpImages{
     display:none;
   }  
@@ -48,13 +44,13 @@
   height:100vh;
 }
   
-  form{ width:80%;}
+  form{ width:90%;}
 
   
   
   #shows table{
   margin:0px auto;
-  width: 80%;
+  width: 90%;
   font-size: 1em;
   font-weight:bold;
 }
@@ -63,11 +59,47 @@
   font-size: .8em;
   margin: 1%;
 }
+  
 
   
   }
 @media screen and (max-width:766px) {
-#subscribeDiv h4{
+
+   #about button, #contact button{
+  margin: 15px;
+  font-size:.9em;
+  text-align:center;
+ background: none;
+  color:#fff2f7;
+ border:2px solid #fff2f7;
+}
+
+#about button:hover, #contact button:hover{
+  color:#141439;
+  background: #fff2f7;
+  
+}
+
+#news button{
+  font-size:.8em;
+  padding:2%;
+ background: #141439;
+  color: #fff2f7;
+  
+}
+
+#news button:hover { 
+  color:#141439;
+  background:none; 
+  border:2px solid #141439;
+}
+
+#music button:hover{
+  color:white;
+} 
+
+ 
+  #subscribeDiv h4{
     font-size:1em;
 }
 
@@ -87,13 +119,11 @@
    border-bottom:1px solid;
    border-top:1px solid; 
  }
-  #shows tr{
-    padding: 2% 0%;
-  }
+ 
     h1{
   font-weight:bold;
   font-family: 'Saira Stencil One';
-  font-size: 2.5em;
+  font-size: 2.4em;
   margin:5% 0% 0%;  
 }
  
@@ -145,6 +175,44 @@
 }
 @media screen and (min-width:766px) {
   
+  #about button, #contact button{
+  margin: 15px;
+  font-size:1.1em;
+  text-align:center;
+  //padding:0% 2%;
+  //font-weight: bold;
+ background: none;
+  color:#fff2f7;
+ border:2px solid #fff2f7;
+}
+
+#about button:hover, #contact button:hover{
+  color:#141439;
+  background: #fff2f7;
+  
+}
+
+#news button{
+  font-size:1em;
+  font-weight: bold;
+  padding:2%;
+ background: #141439;
+  color: #fff2f7;
+  
+}
+
+#news button:hover { 
+  color:#141439;
+  background:none; 
+  border:2px solid #141439;
+}
+
+#music button:hover{
+  color:white;
+} 
+
+  
+  
 #subscribeDiv h4{
     font-size:1.4em;
 }
@@ -176,7 +244,7 @@
   #shows td{
   border-bottom:1px solid;
   border-top:1px solid;
-  padding:1% 0%;
+  padding:2% 0%;
 }
   
   #imageSection2{
@@ -230,6 +298,10 @@
   box-sizing:border-box;
 }
 
+ #shows tr{
+    padding: 1% 0%;
+  }
+
 #audio{
   position:fixed;
   bottom:0;
@@ -257,48 +329,10 @@ audio{
   padding-right: 15%;
 }
 
-#about button, #contact button{
-  margin: 15px;
-  font-size:1.1em;
-  text-align:center;
-  //padding:0% 2%;
-  //font-weight: bold;
- background: none;
-  color:#fff2f7;
- border:2px solid #fff2f7;
-}
-
-#about button:hover, #contact button:hover{
-  color:#141439;
-  background: #fff2f7;
-  
-}
-
-#news button{
-  font-size:1em;
-  font-weight: bold;
-  padding:2%;
- background: #141439;
-  color: #fff2f7;
-  
-}
-
-#news button:hover { 
-  color:#141439;
-  background:none; 
-  border:2px solid #141439;
-}
-
-#music button:hover{
-  color:white;
-} 
-
-
-
 
 #about h5{
-  //text-align:left;
-  font-size:1.2em;
+  text-align:justify;
+  font-size:1.1em;
 }
 
 
@@ -610,7 +644,7 @@ color: #262626;
   visibility: visible;
   opacity: 1;
 }
-.popup .close {
+.popup .close, .popupMobile .close {
   position: absolute;
   top: 20px;
   right: 30px;
@@ -627,6 +661,18 @@ color: #262626;
   padding: 20px;
   border-radius: 5px;
   width: 50%;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popupMobile {
+  text-align:center;
+  background-color:#141439;
+  margin: 0px auto;
+  padding: 20px 0px;
+  border-radius: 5px;
+  height:80vh;
+  width: 80%;
   position: relative;
   transition: all 5s ease-in-out;
 }
@@ -727,6 +773,6 @@ color: #262626;
   color: #141439;
 }
 
-#news h4{
+#news h5{
   font-weight:bold;
 }
