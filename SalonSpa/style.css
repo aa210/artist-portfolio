@@ -1,9 +1,6 @@
-
-
 @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans|Arima+Madurai:100|Bad+Script|Fascinate|NTR');
 
 /*Sarina&display=swap,Megrim, Diplomata/Biryani:200 */
-
 
 
 @media screen and (max-width:368px){
@@ -23,7 +20,7 @@
  #socialFeed img{
   display:inline;
   margin:-4px;
-  height:180px;
+  height:150px;
   width:100%;  
 } 
    .popUpImages{
@@ -39,14 +36,26 @@
   #about img{
     height:125px;
 }
+  
 }
 @media screen and  (max-width: 768px) {  
+  #about{
+  padding: 8% 15%;
+}
+
+  #gallery{
+  text-align:center;
+  padding: 8% 15%;
+}
+  
   h1{
-  font-size:3em;
+  font-size:3.5em;
+  margin-bottom:15px; 
+  font-weight: bold;  
 }
   #slideShow h1{
   font-size:3em;
-  margin-bottom:0%;  
+  margin-bottom:0%;    
 }
  .item img{
     min-height:80vh;
@@ -87,6 +96,12 @@ right: 75px;
     color:#3a3a3a;
     margin:0px auto;
   }
+  
+  #services{
+  text-align: center;
+  padding: 10% 15%;
+}
+  
  #socialFeed img{
   display:inline;
   margin:-3px;
@@ -104,6 +119,24 @@ right: 75px;
 }
 }
 @media screen and (min-width: 768px){
+  
+  #about{
+  padding: 6%;
+}
+
+  #gallery{
+  text-align:center;
+  padding: 8%;
+}
+  
+  #services{
+  text-align: center;
+  width:95%;
+  padding: 8% 6%;
+}
+  
+  
+  
   .item .sliderText{
   //font-size:4em;
   //background: rgba(5,5,5,0.3);
@@ -167,9 +200,6 @@ right: 200px;
   box-sizing:border-box;
 }
 
-#about{
-  padding: 6%;
-}
 
 #about img{
   border-radius: 50%;
@@ -196,10 +226,7 @@ body, .sliderText h3{
   
 }
 
-#gallery{
-  text-align:center;
-  padding: 8%;
-}
+
 #gallery img{
   width:100%;
   height:auto;
@@ -250,7 +277,7 @@ html {
   text-align:left;
 }
 .sliderText h3, #about h3 {
-  font-size:2.1em;
+  font-size:2em;
 }
 
 #testimonials h4{
@@ -277,11 +304,6 @@ input{
 }
 #menuPrint{
   display:none;
-}
-#services{
-  text-align: center;
-  width:95%;
-  padding: 8% 6%;
 }
 
 #subscriber{
@@ -356,7 +378,7 @@ input[type=text], input[type=email]{
   color:#453a35;
   margin:0px auto;
   border-bottom:none;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 .navbar-brand{
