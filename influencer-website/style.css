@@ -1,5 +1,8 @@
 @import 'https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans|Montserrat|Amatic+SC|Kaushan+Script';
 
+#aboutPage .text-muted, #campaignPage h4, #aboutPage h3, .text-light, #blogPage h4{
+    line-height:1.4;
+  }
 
 h1, h2 ,button,.navbar-brand{ text-transform:uppercase;
   font-family: "Abril Fatface";
@@ -48,7 +51,7 @@ h1, h2 ,button,.navbar-brand{ text-transform:uppercase;
     background-size:100% 100%;
   margin:0px auto;
   width:100%;
-  height:550px;
+  height:500px;
   padding: 0% 5% 15%;
 }
   
@@ -85,7 +88,7 @@ h1, h2 ,button,.navbar-brand{ text-transform:uppercase;
   #title{
   display:inline-block;
   width:100%;
-  padding: 180px 0%;  
+  padding: 140px 0%;  
   margin:0px auto;
   text-align:center;
   color:white;
@@ -199,6 +202,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /* Everything Else*/
 *{
   box-sizing:border-box;
+  line-height:1.4;
 }
 
 #aboutPage{
