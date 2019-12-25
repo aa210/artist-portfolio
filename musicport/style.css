@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Quicksand|Saira+Stencil+One|Rubik+Mono+One&display=swap');
 
-#subscribeDiv h4{
-  font-family:'Saira Stencil One';
-}
+
 /* Media Queries*/
 @media screen and (max-width:575px){
   form{ width:100%;}
@@ -51,7 +49,7 @@
   #shows table{
   margin:0px auto;
   width: 90%;
-  font-size: 1em;
+  font-size: .9em;
   font-weight:bold;
 }
 
@@ -65,9 +63,14 @@
   }
 @media screen and (max-width:766px) {
 
+  #subscribeDiv h4{
+  font-family:'Saira Stencil One';
+  font-size:1.5em;
+}
+  
    #about button, #contact button{
   margin: 15px;
-  font-size:.9em;
+  font-size:1.3em;
   text-align:center;
  background: none;
   color:#fff2f7;
@@ -81,7 +84,7 @@
 }
 
 #news button{
-  font-size:.8em;
+  font-size:1em;
   padding:2%;
  background: #141439;
   color: #fff2f7;
@@ -97,11 +100,6 @@
 #music button:hover{
   color:white;
 } 
-
- 
-  #subscribeDiv h4{
-    font-size:1em;
-}
 
   
   .sections{
@@ -174,6 +172,11 @@
   
 }
 @media screen and (min-width:766px) {
+  
+  #subscribeDiv h4{
+  font-family:'Saira Stencil One';
+  font-size:2em;
+}
   
   #about button, #contact button{
   margin: 15px;
@@ -325,8 +328,8 @@ audio{
 #about{
   color:#fff2f7;
    background: rgba(20, 20, 57,0.9);
-  padding-left: 15%;
-  padding-right: 15%;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 
