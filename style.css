@@ -3,11 +3,11 @@
 
 @media screen and (max-width:767px){
   
-  .canDo h5{
-  font-size:1.2em;
+  #info h5{
+  font-size:1.3em;
   color:#3a3a3a;
   font-family: "Poiret One"; 
-  text-align: center;  
+  text-align:center;  
 }
   
   #dark{
@@ -38,34 +38,52 @@
     display:inline-block;
     border:1px solid #3a3a3a;
     border radius: 0px;
-    color:#3a3a3a;
+    color:white;
     margin:0px auto;
   }
   
+  #info{
+    font-weight:bold;
+  }
   #topDivMobile{
   padding: 2%;
-  background-color: rgba(250,250,250, 1);
+  background-color: rgba(0,0,0,1);
   width: 100%;
     z-index:5;
     margin:0px auto;
     text-align:center;
 }
 
+  #title h1{
+    font-size:2.4em; 
+  }
+  
+  #title p{
+    font-size:1.2em;
+  }
 h1{
   margin:5% auto; 
   font-size:2.6em; 
   font-weight:bold;
-  font-family: "Nothing You Could Do";
+  font-family: "Poiret One";
 }
   
+#port h2 {
+  margin:3%; 
+  font-size:2.5em;
+}
+
+  
   #info h3{
-  font-size:1.2em;
+  font-size:1.6em;
   font-family: "Poiret One";
   padding:5% 6% 1%;
 }
   
   #reference h5{
-font-size:1.1em;
+font-size:1em;
+font-weight: bold;
+ text-align:justify;   
 
 color:#1a1a1a;
 
@@ -73,18 +91,32 @@ font-family: "Poiret One";
 
 }
   
+  .img-rounded, .img-circle{
+  margin:0px auto;
+  max-width:200px;
+  height: 200px;  
+}
+  
 }
 
 @media screen and (min-width:767px){
   
-.canDo h5{
-  font-size:1.5em;
+ 
+ .img-rounded, .img-circle{
+  margin:0px auto;
+  max-width:250px;
+}
+  
+#info h5{
+  font-size:1.3em;
   color:#3a3a3a;
-  font-family: "Poiret One"; 
+  font-family: "Poiret One";
+  font-weight:normal;
+  text-align:justify;
 }
   
 #dark{
-    height:100vh;
+    height:600px;
     padding:15% 10% 25%;
   }
 #port img{
@@ -98,26 +130,27 @@ font-family: "Poiret One";
     display:inline-block;
   }
   
- h1{
+ h2{
   margin:5% auto; 
-  font-size:4.5em; 
+  font-size:3em; 
   font-weight:bold;
-  font-family: "Nothing You Could Do";
+  font-family: "Poiret One";
 }
  #title h1 {
- font-size:5.2em;   
+ font-size:4.2em;   
 }
   
   #info h3{
-  font-size:1.9em;
+  font-size:1.7em;
   font-family: "Poiret One";
   padding:5% 6% 1%;
 }
   
 #reference h5{
-font-size:1.5em;
-color:grey;
+font-size:1.3em;
+color:#1a1a1a;
 font-family: "Poiret One";
+text-align:justify;
 }
   #skillz{
   font-size:1.2em; 
@@ -133,21 +166,28 @@ font-family: "Poiret One";
   letter-spacing:1px;
 }
 
-
+#topDivMobile .f
+{
+  font-size:3.5em;
+  font-family: "Nothing You Could Do";
+  font-weight:bold;
+}
 
 html {
   scroll-behavior: smooth;
 }
 
-
+a h4:hover{
+  transition: all 200ms;
+}
 li{font-size:120%; font-weight:bold; }
 .skillzGroup{clear:left;}
-h3,h4{font-family: "Nothing You Could Do";}
+h3,h4{font-family: "Poiret One";}
 
 
 
 p{
-  font-size:130%;
+  font-size:1.4em;
 }
 
 h1, h2, .canDo h3, .skillzGroup h3{  text-transform:uppercase; text-align:center; font-weight:bold;
@@ -175,9 +215,7 @@ body {
 }
 
 .navbar, .panel-footer {
-  border: none; 
-  color: #999999;
-  
+  border: none;  
 }
 
 .girl{
@@ -185,7 +223,6 @@ body {
   margin: auto;
   display:none;
 }
-
 
 
 #port h5{
@@ -198,8 +235,9 @@ body {
 }
 
 .canDo {
-  padding: 1% 3%;  
+  
   text-align:center;
+  padding: 1% 3%;
 }
 
  .canDo .glyphicon, .canDo .fa{
@@ -215,14 +253,12 @@ body {
   border-bottom:none;
   display: inline-block;
   font-weight:bold;
-  //font-size: 1.5em;
 }
 
 .linksMobile h4:hover, .links h4:hover{
-  color:#eda1a1;
+  color:grey;
 }
 .linksMobile h4, .links h4{
-  color:#453a35;
   margin:0px auto;
   border-bottom:none;
   font-size: 1.5em;
@@ -230,8 +266,8 @@ body {
 }
 
 .portText { 
-  color:#ffffff;  
-  background-color:#404040;
+  color:white;  
+  background-color:#1a1a1a;
   padding:60px;  
 }
 
@@ -244,7 +280,8 @@ body {
 }
 
 .img-rounded, .img-circle{
-  border: 1px solid #292929; 
+  margin:0px auto;
+  max-width:250px;
 }
 
 img:hover {
@@ -253,7 +290,7 @@ img:hover {
 
 h2 {
   margin:3%; 
-  font-size:35px;
+  font-size:3em;
 }
 
 
@@ -281,9 +318,15 @@ input:focus, textarea:focus {
   color:white;
 }
 
-.btn {border: none; background-color:white; color: #292929;}
+.btn:hover  {background-color:white; color:#3a3a3a;}
 
-.btn:hover {background-color:#eda1a1; color:white;}
+.btn{background-color:#3a3a3a; color:white; font-size: 1.3em; font-weight:bold;
+transition: all 500ms;}
+
+#title button{border:none; background-color:white; color:#3a3a3a;transition: all 500ms;}
+
+#title button:hover{border:1px solid #3a3a3a; background-color:#3a3a3a; color:white; font-size: 1.3em; font-weight:bold;}
+
 
 #mobileMenuButton:hover{
   background-color:white;
@@ -292,7 +335,7 @@ input:focus, textarea:focus {
 
 .btn-circle-lg {border-radius: 100%; padding:4%; text-align:center;}
 
-.btn-circle-lg:hover {background-color:#eda1a1;}
+.btn-circle-lg:hover {background-color:grey;}
 
 .overlay {
   position: fixed;
@@ -339,33 +382,33 @@ input:focus, textarea:focus {
 }
 #portNav span:hover{
   cursor:pointer;
-  color: #eda1a1;
+  color: grey;
 }
 
 .selected{
   font-weight:bold;
-  color: #eda1a1;
+  color: grey;
 }
 
-#title{
-  padding:0%;
+#title {
+  padding:10% 10%;
+}
+
+body{
   background-image: url("https://st.depositphotos.com/1001069/2820/i/950/depositphotos_28202621-stock-photo-notepad-laptop-and-coffee-cup.jpg");
   background-size: cover;
   background-attachment:fixed; 
 }
 
 #reference{
+  background-color: rgba(250,250,250,0.8);
   padding:8%;
 }
 
 
 
 /*  */
-#navigation .logo, #topDivMobile .logo{
-  font-size:3.5em;
-}
 
---
 .navbar-brand{
   font-size:2em;
   color:#3a3a3a;  
@@ -375,12 +418,10 @@ input:focus, textarea:focus {
 }
 
 #navigation{
-  background-color: rgba(250,250,250, 0.8);
+  background-color: rgba(50,50,50, 0.5);
   border: none;
-  //z-index:4;
   padding: 2% 0%;
   font-size:.7em;
-  color:#3a3a3a;
   width:100%;
   text- align:center;
   margin:0px auto;
@@ -389,15 +430,17 @@ input:focus, textarea:focus {
 #navigation li, #navigationMobile ul li {
   list-style-type:none;
   margin:0% 1%;
+  color:white;
 }
 
 #navigation li a, #navigationMobile ul li a{
   text-decoration: none;
-  color:#3a3a3a;   
+  color:white;   
 }
 
  #navigation .selected a:hover{
-    border-bottom:none;  
+    border-bottom:none; 
+   
   }
 
 #navigationMobile button{
@@ -420,11 +463,13 @@ input:focus, textarea:focus {
 }
 
 #portNav h6, #portNav span{
-  font-size:1em;
+  font-size:1.2em;
+  font-weight:bold;
 }
 
 h6{
-  font-size:1em;
+  font-size:1.3em;
+  font-weight:bold;
 }
 
 .links .fa, .linksMobile .fa, .links strong, .linksMobile strong{
@@ -437,21 +482,22 @@ display:inline;
 
 .icon{
 display:inline-block;
-  margin:0px auto;
+  margin:10% auto 0%;
   text-align:center;
 }
 #info{
   /*background-image: url("https://st.depositphotos.com/1001069/2820/i/950/depositphotos_28202621-stock-photo-notepad-laptop-and-coffee-cup.jpg");
   background-size: cover;
   background-attachment:fixed; */
-  background-color: rgba(255,255,255,0.9); 
+  font-weight:bold;
+  background-color: rgba(255,255,255,0.93); 
   color: #1a1a1a;
 }
 
 .skillzGroup{
   padding: 3% 8%;
 }
-.canDoGroup{
+#canDoGroup{
   padding:5% 6% 2%;
 }
 
@@ -461,17 +507,18 @@ display:inline-block;
 }
 
 #title h3{
-   color: #eda1a1;
+   color: grey;
+  
 }
 
 
 blockquote footer{
-  color:#eda1a1;
+  color:grey;
   font-size:1em;
 }
 
 .highlight{
-  color: #eda1a1;
+  color: grey;
   font-weight:bold;
 }
 
