@@ -297,16 +297,16 @@ h2 {
 
 input, textarea{
   border:none; 
-  background-color:white; 
+  background-color:#1a1a1a; 
   border-bottom: 1px solid #292929;
   font-size: 20px; 
   width:100%;
-  color:#1a1a1a;
+  color:white;
 }
 
 input:focus, textarea:focus {
-  background-color: #1a1a1a;
-  color:white;
+  background-color: white;
+  color:#1a1a1a;
 }
 
 .AboutAround {
