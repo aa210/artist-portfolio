@@ -32,7 +32,7 @@ body{
     display:block;
     background-color:white;
     position: fixed;
-    z-index:5;
+    z-index:3;
     width: 100%;
     margin:0px auto;
     height: 50px;
