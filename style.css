@@ -3,8 +3,15 @@
 
 @media screen and (max-width:767px){
   
-  #info h5{
-  font-size:1.3em;
+  h2{
+  margin:5% auto; 
+  font-size:2em; 
+  font-weight:bold;
+  font-family: "Poiret One";
+}
+  
+  #info p{
+  //font-size:1.3em;
   color:#3a3a3a;
   font-family: "Poiret One"; 
   text-align:center;  
@@ -42,9 +49,7 @@
     margin:0px auto;
   }
   
-  #info{
-    font-weight:bold;
-  }
+
   #topDivMobile{
   padding: 2%;
   background-color: rgba(0,0,0,1);
@@ -55,11 +60,11 @@
 }
 
   #title h1{
-    font-size:2.4em; 
+    font-size:2.8em; 
   }
   
   #title p{
-    font-size:1.2em;
+    font-size:1.3em;
   }
 h1{
   margin:5% auto; 
@@ -80,7 +85,7 @@ h1{
   padding:5% 6% 1%;
 }
   
-  #reference h5{
+  #reference p{
 font-size:1em;
 font-weight: bold;
  text-align:justify;   
@@ -101,13 +106,19 @@ font-family: "Poiret One";
 
 @media screen and (min-width:767px){
   
- 
+ h2{
+  margin:5% auto; 
+  font-size:3em; 
+  font-weight:bold;
+  font-family: "Poiret One";
+}
+  
  .img-rounded, .img-circle{
   margin:0px auto;
   max-width:250px;
 }
   
-#info h5{
+#info p{
   font-size:1.3em;
   color:#3a3a3a;
   font-family: "Poiret One";
@@ -130,12 +141,7 @@ font-family: "Poiret One";
     display:inline-block;
   }
   
- h2{
-  margin:5% auto; 
-  font-size:3em; 
-  font-weight:bold;
-  font-family: "Poiret One";
-}
+ 
  #title h1 {
  font-size:4.2em;   
 }
@@ -146,7 +152,7 @@ font-family: "Poiret One";
   padding:5% 6% 1%;
 }
   
-#reference h5{
+#reference p{
 font-size:1.3em;
 color:#1a1a1a;
 font-family: "Poiret One";
@@ -186,9 +192,6 @@ h3,h4{font-family: "Poiret One";}
 
 
 
-p{
-  font-size:1.4em;
-}
 
 h1, h2, .canDo h3, .skillzGroup h3{  text-transform:uppercase; text-align:center; font-weight:bold;
   
@@ -286,11 +289,6 @@ body {
 
 img:hover {
   box-shadow: 5px 1px 10px #292929;
-}
-
-h2 {
-  margin:3%; 
-  font-size:3em;
 }
 
 
@@ -489,7 +487,6 @@ display:inline-block;
   /*background-image: url("https://st.depositphotos.com/1001069/2820/i/950/depositphotos_28202621-stock-photo-notepad-laptop-and-coffee-cup.jpg");
   background-size: cover;
   background-attachment:fixed; */
-  font-weight:bold;
   background-color: rgba(255,255,255,0.93); 
   color: #1a1a1a;
 }
