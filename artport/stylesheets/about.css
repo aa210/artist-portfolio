@@ -4,7 +4,7 @@
 
  .mobileMenuBtn{
     position: fixed;
-    z-index: 5;
+    z-index: 3;
     top: 10px;
     padding: 2%;
     border-radius: 4px;
