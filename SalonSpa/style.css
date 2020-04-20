@@ -58,7 +58,7 @@
   margin-bottom:0%;    
 }
  .item img{
-    min-height:80vh;
+    height:100vh;
  }
   
   .item .sliderText{
@@ -227,6 +227,9 @@ body, .sliderText h3{
 }
 
 
+#footer h4, #footer h2{
+  font-size:2.1em;
+}
 #gallery img{
   width:100%;
   height:auto;
@@ -237,7 +240,7 @@ body, .sliderText h3{
   margin:0px 2px;
   color:#664200;
   cursor:pointer;
-  font-size:1.8em;
+  font-size:2em;
 }
 #gallery span:hover{
   text-decoration:underline;
@@ -262,6 +265,9 @@ html {
   scroll-behavior: smooth;
 }
 
+#introDiv h3{
+  font-size: 2em;
+}
 .logo{
   font-family:"Fascinate";
 }
@@ -332,6 +338,9 @@ input{
   margin:0px auto;
 }
 
+#subscriber h2{
+  font-size:2.2em;
+}
 input[type=text], input[type=email]{
   height:30px;
 }
@@ -451,6 +460,9 @@ input[type=text], input[type=email]{
  // border:1px solid white;
   margin:1%;
   display:inline;
+}
+#testimonials h2{
+  font-size:2.3em;
 }
 #testimonials i {
   border: solid white;
