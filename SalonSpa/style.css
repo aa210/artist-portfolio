@@ -58,7 +58,7 @@
   margin-bottom:0%;    
 }
  .item img{
-    height:100vh;
+    min-height:80vh;
  }
   
   .item .sliderText{
@@ -209,7 +209,7 @@ right: 200px;
 body{
   color:#1a1100;
 }
-body, .sliderText h3{
+body, .sliderText p{
   font-family:"NTR";
 }
 
@@ -265,7 +265,7 @@ html {
   scroll-behavior: smooth;
 }
 
-#introDiv h3{
+#introDiv p{
   font-size: 2em;
 }
 .logo{
@@ -279,10 +279,10 @@ html {
 #services h2{
   color:#332200;
 }
-#services h3{
+#services p{
   text-align:left;
 }
-.sliderText h3, #about h3 {
+.sliderText p, #about p {
   font-size:2em;
 }
 
@@ -632,4 +632,8 @@ https://app.moqups.com/em7aZn52lH/view/page/aa9df7b72
 #bottom{
   position: static;
   bottom:0;
+}
+
+#subscriber p, #services p{
+  font-size: 1.8em;
 }
