@@ -96,7 +96,6 @@ font-family: "Poiret One";
 }
   
   .img-rounded, .img-circle{
-  margin:0px auto;
   max-width:200px;
   height: 200px;  
 }
@@ -113,7 +112,6 @@ font-family: "Poiret One";
 }
   
  .img-rounded, .img-circle{
-  margin:0px auto;
   max-width:250px;
 }
   
