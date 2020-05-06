@@ -145,6 +145,10 @@ font-family: "Poiret One";
  font-size:4.2em;   
 }
   
+#title p{
+    font-size:1.3em;
+}
+  
   #info h3{
   font-size:1.7em;
   font-family: "Poiret One";
