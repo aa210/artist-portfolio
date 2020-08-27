@@ -41,6 +41,7 @@
 @media screen and  (max-width: 768px) {  
   #about{
   padding: 8% 15%;
+    text-align:justify;
 }
 
   #gallery{
@@ -122,6 +123,7 @@ right: 75px;
   
   #about{
   padding: 6%;
+    text-align:justify;
 }
 
   #gallery{
