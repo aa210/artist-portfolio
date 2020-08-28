@@ -21,7 +21,7 @@
     position: fixed;
     z-index:3;
     width: 100%;
-    margin:0px auto;
+    margin:0 auto;
     height: 50px;
   }
  
@@ -59,7 +59,7 @@
     display:none;
   }  
   .picDesc{
-    padding:0% 0% 15px;
+    padding:0 0 15px;
   }
 }
 
@@ -78,7 +78,7 @@
 }
 body{
   font-family:"Indie Flower";
-  margin: 0px;
+  margin: 0;
 }
 
 a, #byMe{
@@ -112,7 +112,7 @@ a:hover {
 }
 body{
   padding:px;
-  margin: 0px;
+  margin: 0;
 }
 
 
@@ -131,7 +131,7 @@ label{
 }
 
 li {
-  padding: 1% 0%;
+  padding: 1% 0;
   list-style-type: none;
 }
 
@@ -151,7 +151,7 @@ li>a:hover {
 .overlay {
   position: fixed;
   z-index:3;
-  padding:0px;
+  padding:0;
   top: 0;
   bottom: 0;
   left: 0;
@@ -188,7 +188,7 @@ li>a:hover {
 .popup img{height:100%; margin:0}
 .popup {
   text-align: center;
-  margin: 0px auto;
+  margin: 0 auto;
   padding: 20px;
   color: #1a1a1a;
   overflow: auto;
@@ -213,13 +213,13 @@ li>a:hover {
 #sideMenu .linkA
 {
   font-size: 150%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 #sideMenu .linkB
 {
   font-size: 130%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 #socialBtns {color:white; display:inline; text-decoration:none;} 
@@ -228,7 +228,7 @@ li>a:hover {
   text-decoration: none;
   //background-color:#1a1a1a; 
   //border-radius:5%; 
-  padding:0px 5px;
+  padding:0 5px;
   margin: auto;
 }
 #socialBtns .fa:hover {
@@ -239,7 +239,7 @@ li>a:hover {
 .subLinks{
   //display:none;
   visibility: hidden;
-  height: 0px;
+  height: 0;
   opacity: 0;
   -webkit-transition:visibility 0s, opacity 0.5s linear;
   -moz-transition: visibility 0s, opacity 0.5s linear;
