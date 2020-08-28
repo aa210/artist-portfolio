@@ -18,7 +18,7 @@
   
   #dark{
     height:500px;
-    padding:20% 10% 0%;
+    padding:20% 10% 0;
   }
   #dark h1{
     font-size:2.8em;
@@ -32,7 +32,7 @@
   #navigationMobile{
     display:none;
     text-align:center;
-    margin:0px auto;
+    margin:0 auto;
   }
  #skillz{
   font-size:0.8em; 
@@ -43,9 +43,9 @@
   #mobileMenuButton{
     display:inline-block;
     border:1px solid #3a3a3a;
-    border radius: 0px;
+    border radius: 0;
     color:white;
-    margin:0px auto;
+    margin:0 auto;
   }
   
 
@@ -54,7 +54,7 @@
   background-color: rgba(0,0,0,1);
   width: 100%;
     z-index:5;
-    margin:0px auto;
+    margin:0 auto;
     text-align:center;
 }
 
@@ -263,7 +263,7 @@ body {
   color:grey;
 }
 .linksMobile h4, .links h4{
-  margin:0px auto;
+  margin:0 auto;
   border-bottom:none;
   font-size: 1.5em;
   font-family:"Poiret One";
@@ -280,11 +280,11 @@ body {
   margin: 2px auto 20px;
   width: 100%;
   text-align:center;
-  border-radius:0%;
+  border-radius:0;
 }
 
 .img-rounded, .img-circle{
-  margin:0px auto;
+  margin:0 auto;
   max-width:250px;
 }
 
@@ -310,7 +310,7 @@ input:focus, textarea:focus {
 
 .AboutAround {
   width:100%;
-  margin:0px; 
+  margin:0; 
   padding:4% 8%; 
   box-shadow: 10px 10px 10px grey; 
   background-color:#0d0d0d; 
@@ -339,7 +339,7 @@ transition: all 500ms;}
 .overlay {
   position: fixed;
   z-index:3;
-  padding:0px;
+  padding:0;
   top: 0;
   bottom: 0;
   left: 0;
@@ -419,16 +419,16 @@ body{
 #navigation{
   background-color: rgba(50,50,50, 0.5);
   border: none;
-  padding: 2% 0%;
+  padding: 2% 0;
   font-size:.7em;
   width:100%;
   text- align:center;
-  margin:0px auto;
+  margin:0 auto;
 }
 
 #navigation li, #navigationMobile ul li {
   list-style-type:none;
-  margin:0% 1%;
+  margin:0 1%;
   color:white;
 }
 
@@ -481,7 +481,7 @@ display:inline;
 
 .icon{
 display:inline-block;
-  margin:10% auto 0%;
+  margin:10% auto 0;
   text-align:center;
 }
 #info{
