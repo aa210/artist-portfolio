@@ -49,10 +49,10 @@ h1, h2 ,button,.navbar-brand{ text-transform:uppercase;
  #homePage{
     background-image: url("http://highlinewest.com/wp/wp-content/uploads/2016/01/model-headshots-side-turn-vancouver-bc-karmiel.jpg");
     background-size:100% 100%;
-  margin:0px auto;
+  margin:0 auto;
   width:100%;
   height:90vh;
-  padding: 0% 5% 15%;
+  padding: 0 5% 15%;
 }
   
   .headers h1{
@@ -89,7 +89,7 @@ h1, h2 ,button,.navbar-brand{ text-transform:uppercase;
   display:inline-block;
   width:100%;
   padding: 140px 0%;  
-  margin:0px auto;
+  margin:0 auto;
   text-align:center;
   color:white;
   //background: rgba(0,0,0,.3);
@@ -97,7 +97,7 @@ h1, h2 ,button,.navbar-brand{ text-transform:uppercase;
 }
   
   .pages{
-  padding: 0px 0% 0px;
+  padding: 0;
     background-color:white;
 }
   
@@ -133,7 +133,7 @@ h1, h2 ,button,.navbar-brand{ text-transform:uppercase;
  #homePage{
     background-image: url("http://highlinewest.com/wp/wp-content/uploads/2016/01/model-headshots-side-turn-vancouver-bc-karmiel.jpg");
     background-size:100% 100%;
-  margin:0px auto;
+  margin:0 auto;
   width:100%;
   height:100vh;
 }
@@ -207,7 +207,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 #aboutPage{
   text-align:center;
-  //padding: 0% 4%;
+  //padding: 0 4%;
 }
 #aboutPage .row{
   padding: 3% 10%;
@@ -215,7 +215,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 #stats{
-  padding: 0% 10% 5%;
+  padding: 0 10% 5%;
 }
 
 #aboutPage #stats h4{
@@ -343,8 +343,8 @@ body{
 }
 
 #campaignTestimonials {
-  padding:0%;
-  margin: 0px auto;
+  padding:0;
+  margin: 0 auto;
   background-color: #2a2a2a;
   background-image: url("http://www.loragradyphotography.com/wp-content/uploads/2014/02/LoraGradyPhotography_0370.jpg");
   background-size:cover;
@@ -365,7 +365,7 @@ body{
 }
 
 #campaignPage h3{
-  padding: 0% 4%;
+  padding: 0 4%;
   text-align: left;
 }
 
@@ -383,7 +383,7 @@ body{
 
 
 #carousel-example{
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 #campaignPage ul{
@@ -428,10 +428,10 @@ body{
   color:#fefbf9;
   background-color:#1a1a1a;
   //position: absolute;
-  padding: 3% 0%;
+  padding: 3% 0;
   bottom: 0px;
   width:100%;
-  margin: 0px auto;
+  margin: 0 auto;
   text-align:center;
   font-size:.8em;
 }
@@ -449,8 +449,8 @@ body{
   text-align:center;
   font-weight:bold;
   background-attachment:fixed; background-repeat: no-repeat; background-size: 100% 100%; 
-  padding:0% 0%;
-  margin: 0px auto;
+  padding:0;
+  margin: 0 auto;
   height: auto;
 }
 
@@ -469,7 +469,7 @@ body{
 .hvrbox {
 	position: relative;
   display:inline;
-  margin:0px auto;
+  margin:0 auto;
 }
 .hvrbox .hvrbox-layer_top {
 	opacity: 0;
@@ -516,7 +516,7 @@ input[placeholder]{
 img{
   width:100% ;
   height:100%;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 #mobileMenu a, #mobileMenu h1{
@@ -613,14 +613,14 @@ img{
 #subscriberBox{
   background-color:#1a1a1a;
   color:#fefbf9;
-  margin:0px auto;
+  margin:0 auto;
   text-align:center;
   padding: 2px;
 }
 
 #videoPage{
   text-align: center;
-  margin:0px auto;
+  margin:0 auto;
 }
 
 #videoPage iframe{
