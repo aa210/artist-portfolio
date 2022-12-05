@@ -168,6 +168,16 @@ a:hover {
   font-size:85%;
 }
 }
+body{
+  padding:px;
+  margin: 0;
+}
+
+
+.frontGallery{
+  padding: 2px;
+    height:auto;
+}
 
 #hello
 {color:orange; 
