@@ -118,7 +118,16 @@ height: 50px;
  
 
 }
-
+@media screen and (max-width:1425px)  {
+  .frontGallery{
+   max-width:45%;   
+ }  
+}
+@media screen and (min-width:1426px)  {
+  .frontGallery{
+   max-width:32%;   
+ }  
+}
   
  /*Everything Else*/
 @import 'https://fonts.googleapis.com/css?family=Permanent+Marker|Open+Sans|Pacifico|Indie+Flower';
@@ -158,16 +167,6 @@ a:hover {
 #artWork{
   font-size:85%;
 }
-}
-body{
-  padding:px;
-  margin: 0;
-}
-
-
-.frontGallery{
-  padding: 2px;
-    height:auto;
 }
 
 #hello
