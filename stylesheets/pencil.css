@@ -25,7 +25,7 @@ position: fixed;
 z-index:3;
 width: 100%;
 margin:0 auto;
-hight: 50px;
+height: 50px;
 }
   
   .frontGallery{
@@ -40,20 +40,18 @@ hight: 50px;
   }
   
 #sideMenu{
-   display:inline;   
+   display:inline;
+	
  }
+	
   #topMenu{
     display:none;
   }
   
 }
 
+
 @media screen and (max-width:989px){
-  .frontGallery{
-   max-width:95%; 
-  padding: 1%;
- }
-  
   .hvrbox-text {
     display:none;
   }
@@ -62,7 +60,7 @@ hight: 50px;
     display:none;
   }  
   .picDesc{
-    padding:0% 0% 15px;
+    padding:0 0 15px;
     text-align:center;
   }
 }
@@ -120,13 +118,18 @@ hight: 50px;
    display:none;
   }
  
-  .frontGallery{
-  max-width:98%; 
-  padding: 1%;
- }
 
 }
-
+@media screen and (max-width:1425px)  {
+  .frontGallery{
+   max-width:45%;   
+ }  
+}
+@media screen and (min-width:1426px)  {
+  .frontGallery{
+   max-width:32%;   
+ }  
+}
   
  /*Everything Else*/
 @import 'https://fonts.googleapis.com/css?family=Permanent+Marker|Open+Sans|Pacifico|Indie+Flower';
@@ -262,7 +265,11 @@ li>a:hover {
 #sideMenu{
   position:fixed;
   margin-top: 15px; 
+  padding-bottom:10%;
+  z-index: 3;
+  background-color: rgba(255, 255, 255, .6) 
 }
+
 
 #sideMenu .linkA
 {
@@ -313,4 +320,3 @@ li>a:hover {
 }
 #theMenu h2{font-size:140%;}
 #theMenu .linkB{font-size:100%;}
-
